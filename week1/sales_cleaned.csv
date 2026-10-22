@@ -1,0 +1,972 @@
+order_id,order_date,customer_id,customer_name,region,segment,product_name,category,quantity,unit_price,discount_pct,payment_mode,revenue,month
+5001,2025-01-02,1046,Arjun Das,West,Consumer,Tablet,Electronics,2,18000,15.0,Cash,30600.0,2025-01
+5002,2025-01-02,1025,Neha Das,West,Consumer,Printer,Electronics,4,9500,0.0,Credit Card,38000.0,2025-01
+5003,2025-01-02,1042,Sneha Das,East,Small Business,Smartphone,Electronics,1,22000,10.0,Net Banking,19800.0,2025-01
+5005,2025-01-02,1037,Pooja Reddy,North,Consumer,Notebook Pack,Stationery,4,350,0.0,Net Banking,1400.0,2025-01
+5006,2025-01-02,1041,Nikhil Patel,Unknown,Consumer,Smartphone,Electronics,4,22000,15.0,Credit Card,74800.0,2025-01
+5007,2025-01-02,1016,Pooja Reddy,South,Corporate,Smartphone,Electronics,4,22000,0.0,Debit Card,88000.0,2025-01
+5008,2025-01-03,1015,Rahul Patel,West,Corporate,Laptop,Electronics,4,55000,5.0,Credit Card,209000.0,2025-01
+5009,2025-01-03,1025,Neha Das,West,Consumer,Office Chair,Furniture,5,7500,0.0,Cash,37500.0,2025-01
+5010,2025-01-03,1052,Imran Sharma,North,Consumer,Desk Lamp,Furniture,4,900,0.0,Credit Card,3600.0,2025-01
+5011,2025-01-03,1032,Anjali Rao,South,Corporate,Laptop,Electronics,3,55000,10.0,Net Banking,148500.0,2025-01
+5012,2025-01-03,1021,Sneha Das,West,Consumer,Pen Set,Stationery,5,200,0.0,UPI,1000.0,2025-01
+5013,2025-01-04,1047,Imran Patel,South,Small Business,Desk Lamp,Furniture,2,900,0.0,Debit Card,1800.0,2025-01
+5014,2025-01-04,1052,Imran Sharma,North,Consumer,Tablet,Electronics,1,18000,0.0,UPI,18000.0,2025-01
+5015,2025-01-04,1055,Pooja Singh,East,Consumer,Tablet,Electronics,4,18000,0.0,Net Banking,72000.0,2025-01
+5016,2025-01-05,1018,Tara Sharma,North,Consumer,Printer,Electronics,2,9500,10.0,Debit Card,17100.0,2025-01
+5017,2025-01-05,1043,Manoj Singh,Unknown,Corporate,Desk Lamp,Furniture,5,900,0.0,Cash,4500.0,2025-01
+5018,2025-01-06,1036,Kavya Reddy,East,Consumer,Notebook Pack,Stationery,3,350,0.0,Net Banking,1050.0,2025-01
+5019,2025-01-06,1027,Anjali Patel,North,Corporate,Desk Lamp,Furniture,5,900,5.0,Debit Card,4275.0,2025-01
+5020,2025-01-06,1024,Arjun Rao,South,Corporate,Smartphone,Electronics,1,22000,0.0,UPI,22000.0,2025-01
+5021,2025-01-06,1007,Suresh Das,North,Consumer,Smartwatch,Electronics,4,6000,5.0,Credit Card,22800.0,2025-01
+5022,2025-01-06,1017,Diya Nair,East,Consumer,Pen Set,Stationery,3,200,0.0,Credit Card,600.0,2025-01
+5023,2025-01-07,1033,Arjun Khan,West,Consumer,Headphones,Electronics,3,2500,0.0,Net Banking,7500.0,2025-01
+5024,2025-01-07,1054,Kavya Singh,East,Corporate,Pen Set,Stationery,2,200,0.0,Net Banking,400.0,2025-01
+5025,2025-01-08,1052,Imran Sharma,North,Consumer,Notebook Pack,Stationery,5,350,5.0,Debit Card,1662.5,2025-01
+5026,2025-01-09,1012,Sneha Rao,East,Corporate,Pen Set,Stationery,2,200,0.0,Net Banking,400.0,2025-01
+5027,2025-01-09,1041,Nikhil Patel,West,Consumer,Standing Desk,Furniture,5,16000,0.0,Credit Card,80000.0,2025-01
+5028,2025-01-09,1006,Rahul Rao,East,Corporate,Smartwatch,Electronics,3,6000,10.0,Cash,16200.0,2025-01
+5029,2025-01-10,1041,Nikhil Patel,West,Consumer,Headphones,Electronics,1,2500,5.0,Credit Card,2375.0,2025-01
+5030,2025-01-10,1021,Sneha Das,West,Consumer,Headphones,Electronics,5,2500,0.0,Credit Card,12500.0,2025-01
+5031,2025-01-10,1027,Anjali Patel,North,Corporate,Pen Set,Stationery,1,200,10.0,Credit Card,180.0,2025-01
+5032,2025-01-11,1044,Diya Khan,South,Consumer,Smartphone,Electronics,2,22000,10.0,Debit Card,39600.0,2025-01
+5033,2025-01-11,1026,Kavya Reddy,West,Small Business,Smartphone,Electronics,5,22000,0.0,Credit Card,110000.0,2025-01
+5034,2025-01-12,1049,Karthik Singh,South,Corporate,Tablet,Electronics,5,18000,5.0,Credit Card,85500.0,2025-01
+5035,2025-01-12,1033,Arjun Khan,West,Consumer,Tablet,Electronics,5,18000,0.0,Credit Card,90000.0,2025-01
+5036,2025-01-13,1060,Karthik Sharma,East,Consumer,Desk Lamp,Furniture,3,900,5.0,UPI,2565.0,2025-01
+5037,2025-01-14,1039,Vikram Reddy,East,Consumer,Smartwatch,Electronics,4,6000,0.0,Net Banking,24000.0,2025-01
+5038,2025-01-14,1018,Tara Sharma,North,Consumer,Monitor,Electronics,2,12000,5.0,Credit Card,22800.0,2025-01
+5039,2025-01-14,1047,Imran Patel,South,Small Business,Tablet,Electronics,4,18000,0.0,UPI,72000.0,2025-01
+5040,2025-01-14,1025,Neha Das,West,Consumer,Pen Set,Stationery,3,200,0.0,Debit Card,600.0,2025-01
+5041,2025-01-15,1033,Arjun Khan,West,Consumer,Office Chair,Furniture,1,7500,15.0,Net Banking,6375.0,2025-01
+5042,2025-01-15,1009,Rahul Reddy,East,Consumer,Smartwatch,Electronics,3,6000,0.0,Credit Card,18000.0,2025-01
+5043,2025-01-16,1008,Suresh Das,West,Consumer,Printer,Electronics,3,9500,10.0,Net Banking,25650.0,2025-01
+5044,2025-01-16,1035,Diya Patel,South,Consumer,Monitor,Electronics,2,12000,15.0,Cash,20400.0,2025-01
+5045,2025-01-16,1012,Sneha Rao,East,Corporate,Printer,Electronics,2,9500,10.0,Cash,17100.0,2025-01
+5046,2025-01-16,1060,Karthik Sharma,East,Consumer,Headphones,Electronics,3,2500,0.0,Credit Card,7500.0,2025-01
+5047,2025-01-16,1052,Imran Sharma,North,Consumer,Headphones,Electronics,1,2500,10.0,UPI,2250.0,2025-01
+5048,2025-01-17,1043,Manoj Singh,South,Corporate,Pen Set,Stationery,1,200,0.0,Credit Card,200.0,2025-01
+5049,2025-01-17,1045,Kavya Das,South,Corporate,Headphones,Electronics,4,2500,0.0,Net Banking,10000.0,2025-01
+5051,2025-01-17,1004,Diya Singh,South,Consumer,Notebook Pack,Stationery,4,350,5.0,Cash,1330.0,2025-01
+5052,2025-01-18,1024,Arjun Rao,South,Corporate,Notebook Pack,Stationery,3,350,0.0,Net Banking,1050.0,2025-01
+5053,2025-01-18,1030,Suresh Singh,North,Corporate,Desk Lamp,Furniture,3,900,0.0,Credit Card,2700.0,2025-01
+5054,2025-01-18,1055,Pooja Singh,East,Consumer,Pen Set,Stationery,3,200,10.0,Credit Card,540.0,2025-01
+5055,2025-01-19,1014,Arjun Das,East,Small Business,Laptop,Electronics,3,55000,5.0,Net Banking,156750.0,2025-01
+5056,2025-01-19,1030,Suresh Singh,North,Corporate,Laptop,Electronics,5,55000,0.0,Debit Card,275000.0,2025-01
+5057,2025-01-19,1021,Sneha Das,West,Consumer,Notebook Pack,Stationery,5,350,10.0,Credit Card,1575.0,2025-01
+5058,2025-01-20,1009,Rahul Reddy,East,Consumer,Standing Desk,Furniture,2,16000,0.0,Credit Card,32000.0,2025-01
+5059,2025-01-20,1007,Suresh Das,North,Consumer,Headphones,Electronics,4,2500,0.0,Net Banking,10000.0,2025-01
+5060,2025-01-20,1022,Suresh Khan,North,Consumer,Office Chair,Furniture,5,7500,5.0,UPI,35625.0,2025-01
+5061,2025-01-21,1005,Karthik Sharma,West,Consumer,Pen Set,Stationery,1,200,15.0,UPI,170.0,2025-01
+5063,2025-01-21,1022,Suresh Khan,North,Consumer,Notebook Pack,Stationery,3,350,0.0,UPI,1050.0,2025-01
+5064,2025-01-21,1013,Kavya Singh,North,Consumer,Smartwatch,Electronics,5,6000,0.0,UPI,30000.0,2025-01
+5065,2025-01-21,1034,Nikhil Khan,South,Consumer,Headphones,Electronics,3,2500,10.0,Net Banking,6750.0,2025-01
+5066,2025-01-22,1002,Neha Patel,East,Corporate,Notebook Pack,Stationery,5,350,0.0,Debit Card,1750.0,2025-01
+5067,2025-01-23,1019,Tara Das,South,Consumer,Headphones,Electronics,1,2500,0.0,Cash,2500.0,2025-01
+5068,2025-01-25,1028,Pooja Sharma,North,Corporate,Notebook Pack,Stationery,1,350,15.0,Debit Card,297.5,2025-01
+5069,2025-01-25,1058,Rahul Nair,North,Corporate,Pen Set,Stationery,5,200,0.0,UPI,1000.0,2025-01
+5070,2025-01-25,1039,Vikram Reddy,East,Consumer,Smartphone,Electronics,3,22000,5.0,UPI,62700.0,2025-01
+5071,2025-01-26,1053,Kavya Das,West,Small Business,Laptop,Electronics,3,55000,0.0,Cash,165000.0,2025-01
+5072,2025-01-27,1021,Sneha Das,Unknown,Consumer,Headphones,Electronics,1,2500,10.0,UPI,2250.0,2025-01
+5073,2025-01-27,1027,Anjali Patel,North,Corporate,Monitor,Electronics,2,12000,0.0,Debit Card,24000.0,2025-01
+5074,2025-01-28,1026,Kavya Reddy,West,Small Business,Pen Set,Stationery,5,200,0.0,Credit Card,1000.0,2025-01
+5075,2025-01-28,1054,Kavya Singh,East,Corporate,Tablet,Electronics,2,18000,0.0,Credit Card,36000.0,2025-01
+5076,2025-01-28,1058,Rahul Nair,North,Corporate,Monitor,Electronics,3,12000,5.0,Net Banking,34200.0,2025-01
+5077,2025-01-29,1058,Rahul Nair,North,Corporate,Standing Desk,Furniture,2,16000,10.0,Cash,28800.0,2025-01
+5079,2025-01-30,1031,Nikhil Singh,West,Corporate,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-01
+5080,2025-01-31,1033,Arjun Khan,West,Consumer,Smartphone,Electronics,5,22000,10.0,Credit Card,99000.0,2025-01
+5081,2025-01-31,1059,Aarav Reddy,West,Consumer,Headphones,Electronics,5,2500,0.0,Cash,12500.0,2025-01
+5082,2025-01-31,1018,Tara Sharma,Unknown,Consumer,Notebook Pack,Stationery,1,350,0.0,UPI,350.0,2025-01
+5083,2025-01-31,1021,Sneha Das,West,Consumer,Headphones,Electronics,2,2500,5.0,Credit Card,4750.0,2025-01
+5084,2025-02-01,1054,Kavya Singh,East,Corporate,Pen Set,Stationery,3,200,0.0,Cash,600.0,2025-02
+5085,2025-02-01,1024,Arjun Rao,South,Corporate,Headphones,Electronics,2,2500,0.0,Cash,5000.0,2025-02
+5086,2025-02-02,1015,Rahul Patel,West,Corporate,Smartphone,Electronics,4,22000,0.0,UPI,88000.0,2025-02
+5088,2025-02-03,1020,Meera Singh,South,Small Business,Office Chair,Furniture,1,7500,0.0,Debit Card,7500.0,2025-02
+5089,2025-02-03,1054,Kavya Singh,East,Corporate,Tablet,Electronics,2,18000,5.0,Credit Card,34200.0,2025-02
+5090,2025-02-03,1055,Pooja Singh,East,Consumer,Tablet,Electronics,3,18000,5.0,Cash,51300.0,2025-02
+5091,2025-02-04,1019,Tara Das,South,Consumer,Printer,Electronics,1,9500,0.0,Net Banking,9500.0,2025-02
+5092,2025-02-04,1032,Anjali Rao,South,Corporate,Headphones,Electronics,5,2500,10.0,Debit Card,11250.0,2025-02
+5093,2025-02-04,1060,Karthik Sharma,East,Consumer,Smartwatch,Electronics,1,6000,0.0,Credit Card,6000.0,2025-02
+5094,2025-02-04,1045,Kavya Das,South,Corporate,Smartphone,Electronics,1,22000,10.0,Credit Card,19800.0,2025-02
+5095,2025-02-04,1013,Kavya Singh,North,Consumer,Smartwatch,Electronics,3,6000,0.0,Debit Card,18000.0,2025-02
+5096,2025-02-04,1036,Kavya Reddy,East,Consumer,Headphones,Electronics,3,2500,10.0,UPI,6750.0,2025-02
+5097,2025-02-04,1038,Neha Patel,East,Consumer,Notebook Pack,Stationery,2,350,0.0,Debit Card,700.0,2025-02
+5098,2025-02-06,1040,Isha Singh,Unknown,Corporate,Headphones,Electronics,2,2500,0.0,UPI,5000.0,2025-02
+5099,2025-02-06,1002,Neha Patel,East,Corporate,Monitor,Electronics,1,12000,0.0,UPI,12000.0,2025-02
+5100,2025-02-07,1018,Tara Sharma,North,Consumer,Monitor,Electronics,4,12000,0.0,Debit Card,48000.0,2025-02
+5102,2025-02-08,1015,Rahul Patel,West,Corporate,Smartphone,Electronics,1,22000,5.0,Net Banking,20900.0,2025-02
+5103,2025-02-08,1018,Tara Sharma,North,Consumer,Smartphone,Electronics,2,22000,10.0,UPI,39600.0,2025-02
+5104,2025-02-08,1020,Meera Singh,South,Small Business,Notebook Pack,Stationery,5,350,0.0,Credit Card,1750.0,2025-02
+5105,2025-02-08,1011,Rahul Khan,East,Small Business,Smartphone,Electronics,2,22000,10.0,Debit Card,39600.0,2025-02
+5106,2025-02-08,1010,Imran Patel,East,Small Business,Printer,Electronics,5,9500,10.0,Debit Card,42750.0,2025-02
+5107,2025-02-09,1021,Sneha Das,Unknown,Consumer,Pen Set,Stationery,2,200,10.0,Net Banking,360.0,2025-02
+5108,2025-02-09,1053,Kavya Das,West,Small Business,Desk Lamp,Furniture,1,900,5.0,Cash,855.0,2025-02
+5109,2025-02-09,1001,Diya Das,South,Consumer,Notebook Pack,Stationery,2,350,5.0,Debit Card,665.0,2025-02
+5110,2025-02-09,1017,Diya Nair,East,Consumer,Monitor,Electronics,2,12000,0.0,UPI,24000.0,2025-02
+5111,2025-02-09,1004,Diya Singh,South,Consumer,Laptop,Electronics,1,55000,5.0,UPI,52250.0,2025-02
+5112,2025-02-10,1034,Nikhil Khan,South,Consumer,Office Chair,Furniture,3,7500,15.0,UPI,19125.0,2025-02
+5113,2025-02-11,1016,Pooja Reddy,South,Corporate,Headphones,Electronics,2,2500,0.0,Cash,5000.0,2025-02
+5114,2025-02-11,1048,Tara Khan,North,Consumer,Monitor,Electronics,4,12000,0.0,Credit Card,48000.0,2025-02
+5115,2025-02-11,1036,Kavya Reddy,East,Consumer,Notebook Pack,Stationery,3,350,0.0,Credit Card,1050.0,2025-02
+5116,2025-02-12,1048,Tara Khan,North,Consumer,Desk Lamp,Furniture,3,900,15.0,Cash,2295.0,2025-02
+5117,2025-02-12,1039,Vikram Reddy,East,Consumer,Tablet,Electronics,3,18000,0.0,Net Banking,54000.0,2025-02
+5118,2025-02-12,1027,Anjali Patel,North,Corporate,Monitor,Electronics,1,12000,5.0,Debit Card,11400.0,2025-02
+5119,2025-02-12,1052,Imran Sharma,North,Consumer,Standing Desk,Furniture,4,16000,10.0,Net Banking,57600.0,2025-02
+5120,2025-02-13,1029,Rahul Reddy,West,Consumer,Standing Desk,Furniture,1,16000,15.0,Cash,13600.0,2025-02
+5121,2025-02-13,1057,Isha Patel,East,Consumer,Monitor,Electronics,4,12000,0.0,Cash,48000.0,2025-02
+5122,2025-02-13,1060,Karthik Sharma,East,Consumer,Smartwatch,Electronics,5,6000,10.0,Net Banking,27000.0,2025-02
+5123,2025-02-13,1036,Kavya Reddy,East,Consumer,Smartwatch,Electronics,4,6000,10.0,UPI,21600.0,2025-02
+5124,2025-02-13,1041,Nikhil Patel,West,Consumer,Notebook Pack,Stationery,3,350,0.0,Cash,1050.0,2025-02
+5125,2025-02-13,1016,Pooja Reddy,South,Corporate,Smartphone,Electronics,2,22000,10.0,Net Banking,39600.0,2025-02
+5126,2025-02-13,1049,Karthik Singh,South,Corporate,Headphones,Electronics,5,2500,0.0,Net Banking,12500.0,2025-02
+5127,2025-02-13,1041,Nikhil Patel,West,Consumer,Headphones,Electronics,2,2500,5.0,Debit Card,4750.0,2025-02
+5128,2025-02-14,1055,Pooja Singh,East,Consumer,Smartphone,Electronics,3,22000,0.0,Cash,66000.0,2025-02
+5129,2025-02-14,1017,Diya Nair,East,Consumer,Printer,Electronics,4,9500,0.0,Net Banking,38000.0,2025-02
+5130,2025-02-14,1048,Tara Khan,North,Consumer,Notebook Pack,Stationery,5,350,0.0,Net Banking,1750.0,2025-02
+5131,2025-02-14,1029,Rahul Reddy,Unknown,Consumer,Smartwatch,Electronics,5,6000,0.0,Net Banking,30000.0,2025-02
+5132,2025-02-15,1012,Sneha Rao,East,Corporate,Office Chair,Furniture,1,7500,0.0,Net Banking,7500.0,2025-02
+5133,2025-02-15,1011,Rahul Khan,East,Small Business,Office Chair,Furniture,5,7500,5.0,Credit Card,35625.0,2025-02
+5134,2025-02-15,1034,Nikhil Khan,South,Consumer,Notebook Pack,Stationery,1,350,0.0,Cash,350.0,2025-02
+5135,2025-02-16,1020,Meera Singh,South,Small Business,Monitor,Electronics,3,12000,0.0,Debit Card,36000.0,2025-02
+5136,2025-02-16,1007,Suresh Das,North,Consumer,Monitor,Electronics,5,12000,5.0,Net Banking,57000.0,2025-02
+5137,2025-02-17,1026,Kavya Reddy,West,Small Business,Smartwatch,Electronics,4,6000,5.0,Net Banking,22800.0,2025-02
+5138,2025-02-17,1040,Isha Singh,West,Corporate,Headphones,Electronics,5,2500,0.0,Net Banking,12500.0,2025-02
+5139,2025-02-17,1020,Meera Singh,South,Small Business,Office Chair,Furniture,2,7500,15.0,Debit Card,12750.0,2025-02
+5140,2025-02-18,1058,Rahul Nair,North,Corporate,Notebook Pack,Stationery,2,350,0.0,Debit Card,700.0,2025-02
+5141,2025-02-18,1047,Imran Patel,South,Small Business,Standing Desk,Furniture,2,16000,10.0,UPI,28800.0,2025-02
+5142,2025-02-18,1031,Nikhil Singh,West,Corporate,Pen Set,Stationery,2,200,0.0,Cash,400.0,2025-02
+5144,2025-02-19,1026,Kavya Reddy,West,Small Business,Headphones,Electronics,3,2500,15.0,Debit Card,6375.0,2025-02
+5145,2025-02-19,1009,Rahul Reddy,East,Consumer,Smartwatch,Electronics,4,6000,10.0,Cash,21600.0,2025-02
+5146,2025-02-20,1003,Arjun Das,East,Consumer,Smartwatch,Electronics,3,6000,5.0,Net Banking,17100.0,2025-02
+5147,2025-02-20,1057,Isha Patel,East,Consumer,Smartphone,Electronics,2,22000,5.0,UPI,41800.0,2025-02
+5148,2025-02-21,1058,Rahul Nair,North,Corporate,Tablet,Electronics,1,18000,0.0,Debit Card,18000.0,2025-02
+5149,2025-02-21,1045,Kavya Das,South,Corporate,Pen Set,Stationery,3,200,5.0,Cash,570.0,2025-02
+5150,2025-02-21,1007,Suresh Das,North,Consumer,Smartwatch,Electronics,5,6000,10.0,Net Banking,27000.0,2025-02
+5151,2025-02-21,1018,Tara Sharma,North,Consumer,Headphones,Electronics,5,2500,15.0,Cash,10625.0,2025-02
+5152,2025-02-21,1003,Arjun Das,East,Consumer,Notebook Pack,Stationery,2,350,0.0,Cash,700.0,2025-02
+5153,2025-02-21,1004,Diya Singh,South,Consumer,Pen Set,Stationery,3,200,0.0,Net Banking,600.0,2025-02
+5154,2025-02-21,1015,Rahul Patel,West,Corporate,Headphones,Electronics,4,2500,5.0,Net Banking,9500.0,2025-02
+5155,2025-02-22,1035,Diya Patel,Unknown,Consumer,Desk Lamp,Furniture,4,900,0.0,Cash,3600.0,2025-02
+5156,2025-02-22,1004,Diya Singh,South,Consumer,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-02
+5157,2025-02-22,1060,Karthik Sharma,East,Consumer,Notebook Pack,Stationery,3,350,0.0,Debit Card,1050.0,2025-02
+5158,2025-02-22,1028,Pooja Sharma,North,Corporate,Pen Set,Stationery,1,200,5.0,Cash,190.0,2025-02
+5159,2025-02-22,1016,Pooja Reddy,South,Corporate,Smartphone,Electronics,1,22000,0.0,UPI,22000.0,2025-02
+5160,2025-02-23,1031,Nikhil Singh,West,Corporate,Monitor,Electronics,4,12000,0.0,Cash,48000.0,2025-02
+5161,2025-02-23,1048,Tara Khan,North,Consumer,Smartwatch,Electronics,1,6000,0.0,Debit Card,6000.0,2025-02
+5162,2025-02-23,1019,Tara Das,South,Consumer,Monitor,Electronics,2,12000,10.0,Net Banking,21600.0,2025-02
+5163,2025-02-24,1003,Arjun Das,East,Consumer,Notebook Pack,Stationery,3,350,5.0,Credit Card,997.5,2025-02
+5164,2025-02-24,1004,Diya Singh,South,Consumer,Laptop,Electronics,4,55000,0.0,Net Banking,220000.0,2025-02
+5165,2025-02-24,1052,Imran Sharma,Unknown,Consumer,Laptop,Electronics,3,55000,0.0,Debit Card,165000.0,2025-02
+5166,2025-02-25,1007,Suresh Das,North,Consumer,Pen Set,Stationery,1,200,5.0,Debit Card,190.0,2025-02
+5167,2025-02-25,1039,Vikram Reddy,East,Consumer,Notebook Pack,Stationery,4,350,0.0,Cash,1400.0,2025-02
+5168,2025-02-26,1024,Arjun Rao,South,Corporate,Laptop,Electronics,5,55000,5.0,Debit Card,261250.0,2025-02
+5169,2025-02-26,1047,Imran Patel,South,Small Business,Pen Set,Stationery,5,200,0.0,Net Banking,1000.0,2025-02
+5170,2025-02-26,1004,Diya Singh,South,Consumer,Printer,Electronics,4,9500,15.0,UPI,32300.0,2025-02
+5171,2025-02-26,1054,Kavya Singh,East,Corporate,Standing Desk,Furniture,3,16000,0.0,Cash,48000.0,2025-02
+5172,2025-02-26,1042,Sneha Das,East,Small Business,Standing Desk,Furniture,5,16000,0.0,Net Banking,80000.0,2025-02
+5173,2025-02-26,1027,Anjali Patel,North,Corporate,Laptop,Electronics,3,55000,0.0,Credit Card,165000.0,2025-02
+5174,2025-02-27,1013,Kavya Singh,North,Consumer,Desk Lamp,Furniture,1,900,15.0,Credit Card,765.0,2025-02
+5175,2025-02-27,1059,Aarav Reddy,West,Consumer,Smartwatch,Electronics,5,6000,15.0,Debit Card,25500.0,2025-02
+5176,2025-02-27,1019,Tara Das,South,Consumer,Printer,Electronics,2,9500,5.0,Cash,18050.0,2025-02
+5177,2025-03-01,1030,Suresh Singh,North,Corporate,Smartwatch,Electronics,5,6000,0.0,Net Banking,30000.0,2025-03
+5178,2025-03-02,1024,Arjun Rao,South,Corporate,Notebook Pack,Stationery,2,350,0.0,Cash,700.0,2025-03
+5179,2025-03-02,1014,Arjun Das,East,Small Business,Headphones,Electronics,5,2500,10.0,Cash,11250.0,2025-03
+5180,2025-03-02,1025,Neha Das,West,Consumer,Tablet,Electronics,3,18000,5.0,Debit Card,51300.0,2025-03
+5181,2025-03-02,1010,Imran Patel,East,Small Business,Desk Lamp,Furniture,3,900,0.0,Cash,2700.0,2025-03
+5182,2025-03-02,1001,Diya Das,South,Consumer,Standing Desk,Furniture,2,16000,0.0,Credit Card,32000.0,2025-03
+5183,2025-03-03,1018,Tara Sharma,North,Consumer,Notebook Pack,Stationery,5,350,0.0,Debit Card,1750.0,2025-03
+5184,2025-03-03,1007,Suresh Das,North,Consumer,Monitor,Electronics,1,12000,10.0,UPI,10800.0,2025-03
+5185,2025-03-04,1025,Neha Das,West,Consumer,Monitor,Electronics,3,12000,5.0,UPI,34200.0,2025-03
+5186,2025-03-04,1052,Imran Sharma,North,Consumer,Printer,Electronics,2,9500,5.0,Net Banking,18050.0,2025-03
+5187,2025-03-05,1010,Imran Patel,Unknown,Small Business,Tablet,Electronics,3,18000,5.0,Net Banking,51300.0,2025-03
+5188,2025-03-05,1001,Diya Das,Unknown,Consumer,Notebook Pack,Stationery,2,350,0.0,Debit Card,700.0,2025-03
+5189,2025-03-05,1007,Suresh Das,North,Consumer,Printer,Electronics,4,9500,0.0,UPI,38000.0,2025-03
+5190,2025-03-05,1031,Nikhil Singh,West,Corporate,Smartwatch,Electronics,2,6000,0.0,UPI,12000.0,2025-03
+5191,2025-03-06,1017,Diya Nair,East,Consumer,Smartphone,Electronics,1,22000,10.0,UPI,19800.0,2025-03
+5192,2025-03-06,1030,Suresh Singh,North,Corporate,Desk Lamp,Furniture,1,900,0.0,Cash,900.0,2025-03
+5193,2025-03-06,1002,Neha Patel,East,Corporate,Standing Desk,Furniture,4,16000,0.0,Credit Card,64000.0,2025-03
+5194,2025-03-07,1020,Meera Singh,South,Small Business,Notebook Pack,Stationery,2,350,0.0,Credit Card,700.0,2025-03
+5195,2025-03-07,1025,Neha Das,West,Consumer,Monitor,Electronics,2,12000,0.0,Net Banking,24000.0,2025-03
+5196,2025-03-08,1026,Kavya Reddy,West,Small Business,Notebook Pack,Stationery,4,350,5.0,Net Banking,1330.0,2025-03
+5197,2025-03-08,1034,Nikhil Khan,South,Consumer,Office Chair,Furniture,2,7500,0.0,Cash,15000.0,2025-03
+5198,2025-03-08,1047,Imran Patel,South,Small Business,Smartwatch,Electronics,2,6000,0.0,Credit Card,12000.0,2025-03
+5199,2025-03-08,1029,Rahul Reddy,West,Consumer,Office Chair,Furniture,2,7500,10.0,Debit Card,13500.0,2025-03
+5200,2025-03-08,1051,Imran Reddy,North,Consumer,Smartphone,Electronics,2,22000,0.0,Credit Card,44000.0,2025-03
+5201,2025-03-11,1032,Anjali Rao,South,Corporate,Desk Lamp,Furniture,4,900,0.0,Net Banking,3600.0,2025-03
+5202,2025-03-12,1016,Pooja Reddy,South,Corporate,Desk Lamp,Furniture,3,900,0.0,UPI,2700.0,2025-03
+5203,2025-03-12,1014,Arjun Das,East,Small Business,Headphones,Electronics,5,2500,10.0,Cash,11250.0,2025-03
+5204,2025-03-12,1020,Meera Singh,South,Small Business,Headphones,Electronics,4,2500,0.0,Debit Card,10000.0,2025-03
+5205,2025-03-12,1036,Kavya Reddy,East,Consumer,Printer,Electronics,1,9500,10.0,Cash,8550.0,2025-03
+5206,2025-03-13,1015,Rahul Patel,West,Corporate,Laptop,Electronics,2,55000,15.0,Debit Card,93500.0,2025-03
+5207,2025-03-13,1055,Pooja Singh,East,Consumer,Notebook Pack,Stationery,2,350,5.0,UPI,665.0,2025-03
+5208,2025-03-13,1029,Rahul Reddy,West,Consumer,Standing Desk,Furniture,3,16000,0.0,Cash,48000.0,2025-03
+5209,2025-03-14,1052,Imran Sharma,North,Consumer,Pen Set,Stationery,2,200,5.0,Cash,380.0,2025-03
+5210,2025-03-14,1041,Nikhil Patel,West,Consumer,Tablet,Electronics,5,18000,0.0,Debit Card,90000.0,2025-03
+5211,2025-03-15,1021,Sneha Das,West,Consumer,Pen Set,Stationery,2,200,0.0,Credit Card,400.0,2025-03
+5212,2025-03-15,1014,Arjun Das,East,Small Business,Smartwatch,Electronics,3,6000,0.0,Credit Card,18000.0,2025-03
+5213,2025-03-15,1045,Kavya Das,South,Corporate,Notebook Pack,Stationery,1,350,0.0,Debit Card,350.0,2025-03
+5215,2025-03-15,1015,Rahul Patel,West,Corporate,Standing Desk,Furniture,5,16000,0.0,Credit Card,80000.0,2025-03
+5216,2025-03-18,1056,Meera Das,South,Consumer,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-03
+5217,2025-03-18,1029,Rahul Reddy,West,Consumer,Headphones,Electronics,2,2500,0.0,UPI,5000.0,2025-03
+5218,2025-03-21,1003,Arjun Das,East,Consumer,Tablet,Electronics,1,18000,5.0,Net Banking,17100.0,2025-03
+5219,2025-03-21,1030,Suresh Singh,North,Corporate,Tablet,Electronics,4,18000,15.0,Credit Card,61200.0,2025-03
+5220,2025-03-23,1028,Pooja Sharma,North,Corporate,Smartwatch,Electronics,3,6000,0.0,UPI,18000.0,2025-03
+5221,2025-03-23,1052,Imran Sharma,North,Consumer,Smartphone,Electronics,5,22000,5.0,UPI,104500.0,2025-03
+5222,2025-03-24,1043,Manoj Singh,South,Corporate,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-03
+5223,2025-03-25,1012,Sneha Rao,East,Corporate,Office Chair,Furniture,3,7500,0.0,Debit Card,22500.0,2025-03
+5224,2025-03-25,1010,Imran Patel,East,Small Business,Desk Lamp,Furniture,5,900,0.0,Credit Card,4500.0,2025-03
+5225,2025-03-26,1037,Pooja Reddy,North,Consumer,Monitor,Electronics,5,12000,0.0,Debit Card,60000.0,2025-03
+5226,2025-03-26,1003,Arjun Das,East,Consumer,Smartphone,Electronics,3,22000,0.0,UPI,66000.0,2025-03
+5227,2025-03-26,1020,Meera Singh,South,Small Business,Pen Set,Stationery,1,200,0.0,Credit Card,200.0,2025-03
+5228,2025-03-26,1009,Rahul Reddy,East,Consumer,Printer,Electronics,1,9500,0.0,Credit Card,9500.0,2025-03
+5229,2025-03-27,1002,Neha Patel,East,Corporate,Notebook Pack,Stationery,3,350,0.0,Net Banking,1050.0,2025-03
+5230,2025-03-27,1056,Meera Das,Unknown,Consumer,Office Chair,Furniture,3,7500,0.0,UPI,22500.0,2025-03
+5231,2025-03-27,1006,Rahul Rao,East,Corporate,Office Chair,Furniture,1,7500,0.0,Debit Card,7500.0,2025-03
+5232,2025-03-28,1001,Diya Das,South,Consumer,Laptop,Electronics,1,55000,0.0,Cash,55000.0,2025-03
+5233,2025-03-28,1056,Meera Das,South,Consumer,Notebook Pack,Stationery,4,350,0.0,Net Banking,1400.0,2025-03
+5234,2025-03-28,1012,Sneha Rao,East,Corporate,Monitor,Electronics,4,12000,0.0,Debit Card,48000.0,2025-03
+5235,2025-03-28,1049,Karthik Singh,South,Corporate,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-03
+5236,2025-03-29,1002,Neha Patel,East,Corporate,Laptop,Electronics,3,55000,0.0,Credit Card,165000.0,2025-03
+5237,2025-03-29,1010,Imran Patel,East,Small Business,Pen Set,Stationery,1,200,0.0,Credit Card,200.0,2025-03
+5238,2025-03-29,1007,Suresh Das,North,Consumer,Headphones,Electronics,4,2500,15.0,Cash,8500.0,2025-03
+5239,2025-03-29,1043,Manoj Singh,South,Corporate,Monitor,Electronics,5,12000,0.0,Credit Card,60000.0,2025-03
+5240,2025-03-29,1038,Neha Patel,East,Consumer,Laptop,Electronics,5,55000,0.0,Cash,275000.0,2025-03
+5241,2025-03-29,1029,Rahul Reddy,West,Consumer,Monitor,Electronics,3,12000,0.0,Cash,36000.0,2025-03
+5242,2025-03-30,1015,Rahul Patel,West,Corporate,Desk Lamp,Furniture,4,900,15.0,Net Banking,3060.0,2025-03
+5243,2025-03-30,1006,Rahul Rao,East,Corporate,Smartphone,Electronics,5,22000,0.0,Credit Card,110000.0,2025-03
+5244,2025-03-31,1035,Diya Patel,South,Consumer,Smartphone,Electronics,4,22000,0.0,Net Banking,88000.0,2025-03
+5245,2025-03-31,1014,Arjun Das,East,Small Business,Desk Lamp,Furniture,3,900,15.0,Debit Card,2295.0,2025-03
+5246,2025-03-31,1036,Kavya Reddy,East,Consumer,Tablet,Electronics,4,18000,0.0,Cash,72000.0,2025-03
+5247,2025-03-31,1042,Sneha Das,East,Small Business,Notebook Pack,Stationery,3,350,15.0,Cash,892.5,2025-03
+5248,2025-03-31,1051,Imran Reddy,North,Consumer,Monitor,Electronics,5,12000,0.0,Net Banking,60000.0,2025-03
+5249,2025-03-31,1030,Suresh Singh,North,Corporate,Notebook Pack,Stationery,3,350,5.0,Debit Card,997.5,2025-03
+5250,2025-04-01,1001,Diya Das,South,Consumer,Smartwatch,Electronics,5,6000,0.0,Cash,30000.0,2025-04
+5251,2025-04-01,1017,Diya Nair,East,Consumer,Office Chair,Furniture,1,7500,0.0,Credit Card,7500.0,2025-04
+5252,2025-04-02,1052,Imran Sharma,North,Consumer,Smartphone,Electronics,1,22000,15.0,Debit Card,18700.0,2025-04
+5253,2025-04-02,1032,Anjali Rao,Unknown,Corporate,Monitor,Electronics,1,12000,0.0,Debit Card,12000.0,2025-04
+5254,2025-04-02,1038,Neha Patel,East,Consumer,Headphones,Electronics,3,2500,15.0,Cash,6375.0,2025-04
+5255,2025-04-03,1028,Pooja Sharma,North,Corporate,Tablet,Electronics,4,18000,0.0,Cash,72000.0,2025-04
+5256,2025-04-03,1010,Imran Patel,East,Small Business,Headphones,Electronics,2,2500,5.0,UPI,4750.0,2025-04
+5257,2025-04-04,1054,Kavya Singh,East,Corporate,Monitor,Electronics,1,12000,15.0,Net Banking,10200.0,2025-04
+5258,2025-04-04,1047,Imran Patel,South,Small Business,Smartphone,Electronics,5,22000,0.0,Cash,110000.0,2025-04
+5259,2025-04-05,1060,Karthik Sharma,East,Consumer,Printer,Electronics,4,9500,15.0,UPI,32300.0,2025-04
+5260,2025-04-06,1052,Imran Sharma,North,Consumer,Pen Set,Stationery,4,200,5.0,Net Banking,760.0,2025-04
+5261,2025-04-06,1018,Tara Sharma,North,Consumer,Desk Lamp,Furniture,3,900,5.0,Cash,2565.0,2025-04
+5262,2025-04-08,1016,Pooja Reddy,South,Corporate,Monitor,Electronics,3,12000,0.0,UPI,36000.0,2025-04
+5263,2025-04-08,1015,Rahul Patel,West,Corporate,Printer,Electronics,1,9500,0.0,Debit Card,9500.0,2025-04
+5264,2025-04-09,1056,Meera Das,South,Consumer,Monitor,Electronics,1,12000,5.0,Net Banking,11400.0,2025-04
+5265,2025-04-09,1034,Nikhil Khan,South,Consumer,Smartphone,Electronics,5,22000,0.0,Credit Card,110000.0,2025-04
+5266,2025-04-09,1028,Pooja Sharma,North,Corporate,Desk Lamp,Furniture,2,900,0.0,Net Banking,1800.0,2025-04
+5267,2025-04-09,1059,Aarav Reddy,West,Consumer,Notebook Pack,Stationery,4,350,0.0,Debit Card,1400.0,2025-04
+5268,2025-04-09,1037,Pooja Reddy,Unknown,Consumer,Notebook Pack,Stationery,4,350,10.0,Credit Card,1260.0,2025-04
+5269,2025-04-09,1055,Pooja Singh,Unknown,Consumer,Monitor,Electronics,2,12000,0.0,Credit Card,24000.0,2025-04
+5270,2025-04-11,1060,Karthik Sharma,East,Consumer,Monitor,Electronics,2,12000,5.0,Debit Card,22800.0,2025-04
+5271,2025-04-12,1005,Karthik Sharma,West,Consumer,Pen Set,Stationery,4,200,15.0,Cash,680.0,2025-04
+5272,2025-04-12,1022,Suresh Khan,North,Consumer,Standing Desk,Furniture,1,16000,0.0,Net Banking,16000.0,2025-04
+5273,2025-04-12,1045,Kavya Das,South,Corporate,Office Chair,Furniture,3,7500,0.0,UPI,22500.0,2025-04
+5274,2025-04-13,1049,Karthik Singh,South,Corporate,Smartwatch,Electronics,5,6000,5.0,Net Banking,28500.0,2025-04
+5275,2025-04-13,1009,Rahul Reddy,East,Consumer,Smartwatch,Electronics,4,6000,0.0,Debit Card,24000.0,2025-04
+5276,2025-04-13,1020,Meera Singh,South,Small Business,Smartwatch,Electronics,4,6000,5.0,UPI,22800.0,2025-04
+5277,2025-04-14,1033,Arjun Khan,West,Consumer,Smartphone,Electronics,1,22000,5.0,Net Banking,20900.0,2025-04
+5278,2025-04-14,1048,Tara Khan,North,Consumer,Smartphone,Electronics,1,22000,5.0,Credit Card,20900.0,2025-04
+5279,2025-04-14,1007,Suresh Das,North,Consumer,Desk Lamp,Furniture,2,900,0.0,Cash,1800.0,2025-04
+5280,2025-04-14,1037,Pooja Reddy,Unknown,Consumer,Office Chair,Furniture,2,7500,5.0,Cash,14250.0,2025-04
+5281,2025-04-15,1018,Tara Sharma,North,Consumer,Monitor,Electronics,1,12000,5.0,UPI,11400.0,2025-04
+5282,2025-04-16,1013,Kavya Singh,North,Consumer,Notebook Pack,Stationery,5,350,0.0,Credit Card,1750.0,2025-04
+5283,2025-04-16,1031,Nikhil Singh,West,Corporate,Laptop,Electronics,1,55000,5.0,Cash,52250.0,2025-04
+5284,2025-04-16,1025,Neha Das,West,Consumer,Tablet,Electronics,4,18000,10.0,Credit Card,64800.0,2025-04
+5285,2025-04-16,1039,Vikram Reddy,East,Consumer,Headphones,Electronics,3,2500,5.0,UPI,7125.0,2025-04
+5286,2025-04-16,1020,Meera Singh,South,Small Business,Monitor,Electronics,4,12000,0.0,UPI,48000.0,2025-04
+5287,2025-04-16,1050,Manoj Reddy,North,Consumer,Headphones,Electronics,2,2500,0.0,Net Banking,5000.0,2025-04
+5288,2025-04-17,1005,Karthik Sharma,West,Consumer,Notebook Pack,Stationery,2,350,0.0,UPI,700.0,2025-04
+5289,2025-04-17,1052,Imran Sharma,North,Consumer,Monitor,Electronics,4,12000,0.0,UPI,48000.0,2025-04
+5290,2025-04-18,1002,Neha Patel,East,Corporate,Monitor,Electronics,2,12000,0.0,Debit Card,24000.0,2025-04
+5291,2025-04-19,1045,Kavya Das,South,Corporate,Headphones,Electronics,4,2500,15.0,UPI,8500.0,2025-04
+5292,2025-04-19,1021,Sneha Das,West,Consumer,Laptop,Electronics,1,55000,0.0,Cash,55000.0,2025-04
+5293,2025-04-19,1024,Arjun Rao,South,Corporate,Tablet,Electronics,1,18000,10.0,Debit Card,16200.0,2025-04
+5294,2025-04-20,1002,Neha Patel,East,Corporate,Smartphone,Electronics,4,22000,0.0,Cash,88000.0,2025-04
+5295,2025-04-20,1043,Manoj Singh,South,Corporate,Headphones,Electronics,4,2500,0.0,Debit Card,10000.0,2025-04
+5296,2025-04-20,1010,Imran Patel,East,Small Business,Notebook Pack,Stationery,1,350,0.0,Cash,350.0,2025-04
+5297,2025-04-20,1040,Isha Singh,West,Corporate,Monitor,Electronics,5,12000,0.0,Cash,60000.0,2025-04
+5298,2025-04-21,1044,Diya Khan,South,Consumer,Notebook Pack,Stationery,1,350,10.0,Debit Card,315.0,2025-04
+5299,2025-04-21,1051,Imran Reddy,North,Consumer,Notebook Pack,Stationery,5,350,15.0,UPI,1487.5,2025-04
+5300,2025-04-22,1043,Manoj Singh,Unknown,Corporate,Headphones,Electronics,4,2500,10.0,Credit Card,9000.0,2025-04
+5302,2025-04-22,1045,Kavya Das,South,Corporate,Notebook Pack,Stationery,5,350,10.0,UPI,1575.0,2025-04
+5303,2025-04-23,1050,Manoj Reddy,North,Consumer,Printer,Electronics,2,9500,0.0,Credit Card,19000.0,2025-04
+5304,2025-04-24,1020,Meera Singh,South,Small Business,Monitor,Electronics,4,12000,15.0,Credit Card,40800.0,2025-04
+5305,2025-04-24,1008,Suresh Das,West,Consumer,Smartwatch,Electronics,2,6000,0.0,UPI,12000.0,2025-04
+5307,2025-04-24,1009,Rahul Reddy,East,Consumer,Headphones,Electronics,2,2500,0.0,Debit Card,5000.0,2025-04
+5308,2025-04-25,1036,Kavya Reddy,East,Consumer,Office Chair,Furniture,3,7500,0.0,UPI,22500.0,2025-04
+5309,2025-04-25,1015,Rahul Patel,West,Corporate,Monitor,Electronics,5,12000,0.0,Credit Card,60000.0,2025-04
+5310,2025-04-25,1008,Suresh Das,West,Consumer,Smartwatch,Electronics,3,6000,15.0,UPI,15300.0,2025-04
+5311,2025-04-25,1047,Imran Patel,South,Small Business,Desk Lamp,Furniture,1,900,10.0,UPI,810.0,2025-04
+5312,2025-04-25,1009,Rahul Reddy,East,Consumer,Notebook Pack,Stationery,2,350,15.0,UPI,595.0,2025-04
+5313,2025-04-26,1041,Nikhil Patel,West,Consumer,Tablet,Electronics,4,18000,0.0,Debit Card,72000.0,2025-04
+5314,2025-04-26,1042,Sneha Das,East,Small Business,Headphones,Electronics,3,2500,5.0,Cash,7125.0,2025-04
+5315,2025-04-26,1004,Diya Singh,South,Consumer,Pen Set,Stationery,3,200,0.0,Cash,600.0,2025-04
+5316,2025-04-26,1011,Rahul Khan,East,Small Business,Pen Set,Stationery,3,200,0.0,Cash,600.0,2025-04
+5317,2025-04-26,1048,Tara Khan,North,Consumer,Office Chair,Furniture,2,7500,0.0,Cash,15000.0,2025-04
+5318,2025-04-26,1031,Nikhil Singh,West,Corporate,Headphones,Electronics,3,2500,0.0,Net Banking,7500.0,2025-04
+5319,2025-04-26,1008,Suresh Das,West,Consumer,Pen Set,Stationery,4,200,5.0,Credit Card,760.0,2025-04
+5320,2025-04-27,1060,Karthik Sharma,East,Consumer,Tablet,Electronics,5,18000,0.0,Cash,90000.0,2025-04
+5321,2025-04-27,1016,Pooja Reddy,South,Corporate,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-04
+5323,2025-04-28,1056,Meera Das,South,Consumer,Smartphone,Electronics,5,22000,0.0,Net Banking,110000.0,2025-04
+5324,2025-04-28,1001,Diya Das,South,Consumer,Standing Desk,Furniture,1,16000,15.0,UPI,13600.0,2025-04
+5325,2025-04-28,1034,Nikhil Khan,South,Consumer,Notebook Pack,Stationery,2,350,0.0,Net Banking,700.0,2025-04
+5326,2025-04-29,1060,Karthik Sharma,East,Consumer,Notebook Pack,Stationery,2,350,10.0,Debit Card,630.0,2025-04
+5327,2025-04-30,1035,Diya Patel,South,Consumer,Office Chair,Furniture,1,7500,5.0,Credit Card,7125.0,2025-04
+5328,2025-04-30,1036,Kavya Reddy,East,Consumer,Monitor,Electronics,1,12000,5.0,UPI,11400.0,2025-04
+5329,2025-04-30,1024,Arjun Rao,South,Corporate,Standing Desk,Furniture,4,16000,5.0,Cash,60800.0,2025-04
+5330,2025-05-01,1008,Suresh Das,West,Consumer,Standing Desk,Furniture,2,16000,10.0,Debit Card,28800.0,2025-05
+5331,2025-05-02,1035,Diya Patel,South,Consumer,Office Chair,Furniture,1,7500,5.0,Credit Card,7125.0,2025-05
+5332,2025-05-02,1054,Kavya Singh,East,Corporate,Smartphone,Electronics,2,22000,0.0,Credit Card,44000.0,2025-05
+5333,2025-05-02,1006,Rahul Rao,East,Corporate,Notebook Pack,Stationery,2,350,0.0,Net Banking,700.0,2025-05
+5334,2025-05-02,1053,Kavya Das,West,Small Business,Headphones,Electronics,1,2500,5.0,Debit Card,2375.0,2025-05
+5335,2025-05-03,1025,Neha Das,West,Consumer,Notebook Pack,Stationery,1,350,0.0,UPI,350.0,2025-05
+5336,2025-05-04,1033,Arjun Khan,West,Consumer,Smartphone,Electronics,4,22000,0.0,Credit Card,88000.0,2025-05
+5337,2025-05-04,1010,Imran Patel,East,Small Business,Monitor,Electronics,5,12000,0.0,UPI,60000.0,2025-05
+5338,2025-05-04,1038,Neha Patel,East,Consumer,Standing Desk,Furniture,3,16000,0.0,Cash,48000.0,2025-05
+5339,2025-05-05,1011,Rahul Khan,East,Small Business,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-05
+5340,2025-05-06,1017,Diya Nair,East,Consumer,Standing Desk,Furniture,5,16000,5.0,Net Banking,76000.0,2025-05
+5341,2025-05-07,1044,Diya Khan,South,Consumer,Smartphone,Electronics,5,22000,10.0,Cash,99000.0,2025-05
+5342,2025-05-09,1004,Diya Singh,South,Consumer,Desk Lamp,Furniture,1,900,0.0,Cash,900.0,2025-05
+5343,2025-05-11,1027,Anjali Patel,North,Corporate,Pen Set,Stationery,5,200,0.0,Debit Card,1000.0,2025-05
+5344,2025-05-12,1036,Kavya Reddy,East,Consumer,Desk Lamp,Furniture,1,900,0.0,Cash,900.0,2025-05
+5345,2025-05-12,1008,Suresh Das,West,Consumer,Office Chair,Furniture,1,7500,5.0,UPI,7125.0,2025-05
+5346,2025-05-13,1018,Tara Sharma,North,Consumer,Notebook Pack,Stationery,3,350,0.0,Debit Card,1050.0,2025-05
+5347,2025-05-13,1021,Sneha Das,West,Consumer,Printer,Electronics,4,9500,5.0,Debit Card,36100.0,2025-05
+5348,2025-05-14,1040,Isha Singh,West,Corporate,Notebook Pack,Stationery,1,350,0.0,UPI,350.0,2025-05
+5349,2025-05-14,1059,Aarav Reddy,West,Consumer,Smartwatch,Electronics,2,6000,15.0,Debit Card,10200.0,2025-05
+5351,2025-05-15,1012,Sneha Rao,Unknown,Corporate,Pen Set,Stationery,2,200,10.0,Credit Card,360.0,2025-05
+5352,2025-05-15,1002,Neha Patel,East,Corporate,Monitor,Electronics,5,12000,5.0,Debit Card,57000.0,2025-05
+5353,2025-05-15,1004,Diya Singh,South,Consumer,Smartwatch,Electronics,2,6000,0.0,Credit Card,12000.0,2025-05
+5354,2025-05-16,1036,Kavya Reddy,East,Consumer,Office Chair,Furniture,2,7500,5.0,Credit Card,14250.0,2025-05
+5355,2025-05-16,1010,Imran Patel,East,Small Business,Desk Lamp,Furniture,1,900,0.0,UPI,900.0,2025-05
+5356,2025-05-16,1014,Arjun Das,East,Small Business,Notebook Pack,Stationery,1,350,10.0,Credit Card,315.0,2025-05
+5357,2025-05-16,1051,Imran Reddy,North,Consumer,Pen Set,Stationery,1,200,5.0,Net Banking,190.0,2025-05
+5358,2025-05-17,1053,Kavya Das,West,Small Business,Office Chair,Furniture,3,7500,0.0,Net Banking,22500.0,2025-05
+5359,2025-05-17,1051,Imran Reddy,North,Consumer,Headphones,Electronics,3,2500,0.0,Cash,7500.0,2025-05
+5360,2025-05-17,1016,Pooja Reddy,South,Corporate,Pen Set,Stationery,3,200,10.0,Cash,540.0,2025-05
+5361,2025-05-17,1038,Neha Patel,East,Consumer,Tablet,Electronics,5,18000,0.0,Cash,90000.0,2025-05
+5362,2025-05-18,1037,Pooja Reddy,North,Consumer,Headphones,Electronics,3,2500,10.0,Debit Card,6750.0,2025-05
+5363,2025-05-18,1012,Sneha Rao,East,Corporate,Notebook Pack,Stationery,1,350,10.0,Debit Card,315.0,2025-05
+5364,2025-05-19,1034,Nikhil Khan,South,Consumer,Pen Set,Stationery,2,200,5.0,Cash,380.0,2025-05
+5365,2025-05-19,1032,Anjali Rao,South,Corporate,Monitor,Electronics,2,12000,0.0,Cash,24000.0,2025-05
+5366,2025-05-20,1024,Arjun Rao,South,Corporate,Headphones,Electronics,5,2500,5.0,Debit Card,11875.0,2025-05
+5367,2025-05-20,1046,Arjun Das,West,Consumer,Smartphone,Electronics,2,22000,15.0,Debit Card,37400.0,2025-05
+5368,2025-05-21,1041,Nikhil Patel,West,Consumer,Monitor,Electronics,1,12000,0.0,Debit Card,12000.0,2025-05
+5369,2025-05-21,1032,Anjali Rao,South,Corporate,Tablet,Electronics,4,18000,0.0,Credit Card,72000.0,2025-05
+5370,2025-05-21,1044,Diya Khan,South,Consumer,Headphones,Electronics,3,2500,0.0,Credit Card,7500.0,2025-05
+5371,2025-05-22,1046,Arjun Das,West,Consumer,Headphones,Electronics,1,2500,0.0,UPI,2500.0,2025-05
+5372,2025-05-23,1035,Diya Patel,South,Consumer,Notebook Pack,Stationery,4,350,5.0,Debit Card,1330.0,2025-05
+5373,2025-05-23,1017,Diya Nair,East,Consumer,Monitor,Electronics,2,12000,0.0,Cash,24000.0,2025-05
+5374,2025-05-24,1046,Arjun Das,West,Consumer,Desk Lamp,Furniture,5,900,5.0,Cash,4275.0,2025-05
+5375,2025-05-24,1044,Diya Khan,South,Consumer,Pen Set,Stationery,5,200,0.0,Net Banking,1000.0,2025-05
+5376,2025-05-24,1060,Karthik Sharma,East,Consumer,Tablet,Electronics,2,18000,0.0,UPI,36000.0,2025-05
+5377,2025-05-26,1009,Rahul Reddy,East,Consumer,Smartwatch,Electronics,3,6000,0.0,Cash,18000.0,2025-05
+5378,2025-05-26,1026,Kavya Reddy,West,Small Business,Standing Desk,Furniture,3,16000,10.0,Cash,43200.0,2025-05
+5379,2025-05-27,1056,Meera Das,South,Consumer,Tablet,Electronics,4,18000,5.0,Debit Card,68400.0,2025-05
+5380,2025-05-28,1031,Nikhil Singh,West,Corporate,Headphones,Electronics,1,2500,0.0,Credit Card,2500.0,2025-05
+5381,2025-05-28,1057,Isha Patel,East,Consumer,Headphones,Electronics,2,2500,10.0,Credit Card,4500.0,2025-05
+5382,2025-05-29,1001,Diya Das,South,Consumer,Smartphone,Electronics,1,22000,0.0,Cash,22000.0,2025-05
+5383,2025-05-29,1003,Arjun Das,East,Consumer,Notebook Pack,Stationery,4,350,0.0,Net Banking,1400.0,2025-05
+5384,2025-05-30,1048,Tara Khan,North,Consumer,Pen Set,Stationery,1,200,0.0,Cash,200.0,2025-05
+5385,2025-05-30,1022,Suresh Khan,North,Consumer,Smartphone,Electronics,3,22000,15.0,Debit Card,56100.0,2025-05
+5386,2025-05-31,1032,Anjali Rao,South,Corporate,Standing Desk,Furniture,4,16000,5.0,Cash,60800.0,2025-05
+5387,2025-05-31,1026,Kavya Reddy,West,Small Business,Desk Lamp,Furniture,5,900,5.0,UPI,4275.0,2025-05
+5388,2025-05-31,1025,Neha Das,West,Consumer,Pen Set,Stationery,2,200,0.0,Cash,400.0,2025-05
+5389,2025-05-31,1057,Isha Patel,East,Consumer,Desk Lamp,Furniture,1,900,0.0,UPI,900.0,2025-05
+5390,2025-06-01,1006,Rahul Rao,East,Corporate,Office Chair,Furniture,4,7500,5.0,Net Banking,28500.0,2025-06
+5391,2025-06-01,1047,Imran Patel,South,Small Business,Desk Lamp,Furniture,1,900,0.0,Net Banking,900.0,2025-06
+5392,2025-06-01,1054,Kavya Singh,Unknown,Corporate,Headphones,Electronics,1,2500,15.0,Debit Card,2125.0,2025-06
+5393,2025-06-02,1040,Isha Singh,West,Corporate,Smartwatch,Electronics,5,6000,10.0,Credit Card,27000.0,2025-06
+5394,2025-06-02,1024,Arjun Rao,South,Corporate,Tablet,Electronics,5,18000,0.0,Cash,90000.0,2025-06
+5395,2025-06-02,1010,Imran Patel,East,Small Business,Standing Desk,Furniture,4,16000,5.0,Cash,60800.0,2025-06
+5396,2025-06-02,1041,Nikhil Patel,West,Consumer,Smartwatch,Electronics,5,6000,15.0,Cash,25500.0,2025-06
+5397,2025-06-02,1029,Rahul Reddy,West,Consumer,Headphones,Electronics,1,2500,0.0,Debit Card,2500.0,2025-06
+5398,2025-06-02,1009,Rahul Reddy,East,Consumer,Pen Set,Stationery,1,200,5.0,Credit Card,190.0,2025-06
+5399,2025-06-02,1022,Suresh Khan,North,Consumer,Headphones,Electronics,2,2500,15.0,UPI,4250.0,2025-06
+5400,2025-06-02,1058,Rahul Nair,North,Corporate,Headphones,Electronics,1,2500,0.0,Credit Card,2500.0,2025-06
+5401,2025-06-03,1016,Pooja Reddy,South,Corporate,Tablet,Electronics,5,18000,10.0,Debit Card,81000.0,2025-06
+5402,2025-06-04,1011,Rahul Khan,East,Small Business,Office Chair,Furniture,1,7500,0.0,Debit Card,7500.0,2025-06
+5403,2025-06-04,1041,Nikhil Patel,Unknown,Consumer,Headphones,Electronics,3,2500,5.0,Debit Card,7125.0,2025-06
+5404,2025-06-05,1012,Sneha Rao,East,Corporate,Smartwatch,Electronics,5,6000,10.0,Credit Card,27000.0,2025-06
+5405,2025-06-06,1056,Meera Das,South,Consumer,Headphones,Electronics,4,2500,5.0,Net Banking,9500.0,2025-06
+5406,2025-06-06,1052,Imran Sharma,North,Consumer,Desk Lamp,Furniture,2,900,0.0,Credit Card,1800.0,2025-06
+5407,2025-06-07,1060,Karthik Sharma,East,Consumer,Monitor,Electronics,3,12000,5.0,Net Banking,34200.0,2025-06
+5408,2025-06-07,1055,Pooja Singh,East,Consumer,Standing Desk,Furniture,3,16000,0.0,Credit Card,48000.0,2025-06
+5409,2025-06-07,1015,Rahul Patel,Unknown,Corporate,Pen Set,Stationery,4,200,0.0,Debit Card,800.0,2025-06
+5410,2025-06-07,1013,Kavya Singh,North,Consumer,Printer,Electronics,3,9500,0.0,Cash,28500.0,2025-06
+5411,2025-06-08,1021,Sneha Das,West,Consumer,Monitor,Electronics,2,12000,5.0,Credit Card,22800.0,2025-06
+5412,2025-06-08,1029,Rahul Reddy,West,Consumer,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-06
+5413,2025-06-08,1053,Kavya Das,West,Small Business,Monitor,Electronics,5,12000,0.0,Credit Card,60000.0,2025-06
+5414,2025-06-08,1045,Kavya Das,South,Corporate,Monitor,Electronics,3,12000,10.0,Net Banking,32400.0,2025-06
+5415,2025-06-08,1039,Vikram Reddy,East,Consumer,Desk Lamp,Furniture,1,900,0.0,UPI,900.0,2025-06
+5417,2025-06-09,1039,Vikram Reddy,East,Consumer,Smartphone,Electronics,5,22000,0.0,Cash,110000.0,2025-06
+5418,2025-06-09,1023,Diya Rao,Unknown,Consumer,Laptop,Electronics,5,55000,0.0,Cash,275000.0,2025-06
+5419,2025-06-10,1025,Neha Das,West,Consumer,Standing Desk,Furniture,3,16000,5.0,Debit Card,45600.0,2025-06
+5420,2025-06-11,1032,Anjali Rao,South,Corporate,Standing Desk,Furniture,1,16000,0.0,UPI,16000.0,2025-06
+5421,2025-06-11,1006,Rahul Rao,East,Corporate,Office Chair,Furniture,3,7500,0.0,UPI,22500.0,2025-06
+5422,2025-06-11,1045,Kavya Das,South,Corporate,Notebook Pack,Stationery,5,350,15.0,Debit Card,1487.5,2025-06
+5423,2025-06-12,1040,Isha Singh,West,Corporate,Notebook Pack,Stationery,5,350,10.0,Net Banking,1575.0,2025-06
+5424,2025-06-12,1044,Diya Khan,South,Consumer,Desk Lamp,Furniture,1,900,5.0,UPI,855.0,2025-06
+5425,2025-06-12,1033,Arjun Khan,West,Consumer,Smartphone,Electronics,2,22000,10.0,Net Banking,39600.0,2025-06
+5426,2025-06-12,1047,Imran Patel,South,Small Business,Headphones,Electronics,3,2500,15.0,Cash,6375.0,2025-06
+5427,2025-06-13,1057,Isha Patel,East,Consumer,Desk Lamp,Furniture,1,900,0.0,UPI,900.0,2025-06
+5428,2025-06-13,1035,Diya Patel,South,Consumer,Printer,Electronics,5,9500,5.0,Credit Card,45125.0,2025-06
+5429,2025-06-13,1027,Anjali Patel,North,Corporate,Monitor,Electronics,1,12000,5.0,Credit Card,11400.0,2025-06
+5430,2025-06-14,1007,Suresh Das,North,Consumer,Printer,Electronics,4,9500,0.0,Net Banking,38000.0,2025-06
+5431,2025-06-15,1047,Imran Patel,South,Small Business,Monitor,Electronics,5,12000,0.0,Debit Card,60000.0,2025-06
+5432,2025-06-15,1055,Pooja Singh,East,Consumer,Headphones,Electronics,4,2500,0.0,Credit Card,10000.0,2025-06
+5433,2025-06-15,1042,Sneha Das,East,Small Business,Office Chair,Furniture,4,7500,5.0,Credit Card,28500.0,2025-06
+5434,2025-06-16,1052,Imran Sharma,North,Consumer,Headphones,Electronics,2,2500,10.0,Debit Card,4500.0,2025-06
+5435,2025-06-16,1052,Imran Sharma,North,Consumer,Notebook Pack,Stationery,5,350,10.0,UPI,1575.0,2025-06
+5436,2025-06-17,1048,Tara Khan,North,Consumer,Monitor,Electronics,3,12000,0.0,Credit Card,36000.0,2025-06
+5437,2025-06-17,1031,Nikhil Singh,West,Corporate,Smartwatch,Electronics,1,6000,0.0,UPI,6000.0,2025-06
+5438,2025-06-17,1006,Rahul Rao,East,Corporate,Notebook Pack,Stationery,2,350,0.0,Cash,700.0,2025-06
+5439,2025-06-17,1001,Diya Das,South,Consumer,Headphones,Electronics,2,2500,0.0,Cash,5000.0,2025-06
+5440,2025-06-18,1013,Kavya Singh,North,Consumer,Tablet,Electronics,3,18000,15.0,Debit Card,45900.0,2025-06
+5441,2025-06-18,1026,Kavya Reddy,West,Small Business,Headphones,Electronics,2,2500,10.0,UPI,4500.0,2025-06
+5442,2025-06-18,1045,Kavya Das,South,Corporate,Smartphone,Electronics,3,22000,15.0,Credit Card,56100.0,2025-06
+5443,2025-06-18,1028,Pooja Sharma,North,Corporate,Monitor,Electronics,3,12000,0.0,Net Banking,36000.0,2025-06
+5445,2025-06-19,1013,Kavya Singh,North,Consumer,Desk Lamp,Furniture,4,900,0.0,UPI,3600.0,2025-06
+5446,2025-06-20,1059,Aarav Reddy,West,Consumer,Pen Set,Stationery,2,200,0.0,UPI,400.0,2025-06
+5447,2025-06-20,1060,Karthik Sharma,East,Consumer,Headphones,Electronics,4,2500,0.0,Net Banking,10000.0,2025-06
+5448,2025-06-20,1023,Diya Rao,South,Consumer,Tablet,Electronics,2,18000,0.0,UPI,36000.0,2025-06
+5449,2025-06-21,1049,Karthik Singh,South,Corporate,Desk Lamp,Furniture,5,900,0.0,Debit Card,4500.0,2025-06
+5450,2025-06-21,1044,Diya Khan,South,Consumer,Headphones,Electronics,2,2500,0.0,Net Banking,5000.0,2025-06
+5451,2025-06-23,1056,Meera Das,South,Consumer,Monitor,Electronics,1,12000,15.0,Cash,10200.0,2025-06
+5452,2025-06-23,1054,Kavya Singh,East,Corporate,Tablet,Electronics,1,18000,0.0,Debit Card,18000.0,2025-06
+5454,2025-06-23,1024,Arjun Rao,South,Corporate,Desk Lamp,Furniture,5,900,10.0,UPI,4050.0,2025-06
+5455,2025-06-24,1038,Neha Patel,East,Consumer,Headphones,Electronics,2,2500,5.0,UPI,4750.0,2025-06
+5456,2025-06-24,1020,Meera Singh,South,Small Business,Headphones,Electronics,4,2500,5.0,Net Banking,9500.0,2025-06
+5457,2025-06-24,1021,Sneha Das,West,Consumer,Monitor,Electronics,3,12000,0.0,UPI,36000.0,2025-06
+5458,2025-06-24,1037,Pooja Reddy,North,Consumer,Headphones,Electronics,1,2500,5.0,UPI,2375.0,2025-06
+5459,2025-06-24,1035,Diya Patel,South,Consumer,Office Chair,Furniture,3,7500,0.0,Net Banking,22500.0,2025-06
+5460,2025-06-25,1035,Diya Patel,South,Consumer,Office Chair,Furniture,4,7500,15.0,Debit Card,25500.0,2025-06
+5461,2025-06-25,1024,Arjun Rao,South,Corporate,Headphones,Electronics,5,2500,0.0,Credit Card,12500.0,2025-06
+5462,2025-06-26,1025,Neha Das,West,Consumer,Desk Lamp,Furniture,5,900,0.0,Cash,4500.0,2025-06
+5463,2025-06-27,1001,Diya Das,South,Consumer,Desk Lamp,Furniture,1,900,5.0,Debit Card,855.0,2025-06
+5464,2025-06-28,1037,Pooja Reddy,North,Consumer,Smartwatch,Electronics,2,6000,5.0,Net Banking,11400.0,2025-06
+5466,2025-06-28,1057,Isha Patel,East,Consumer,Headphones,Electronics,1,2500,5.0,Cash,2375.0,2025-06
+5467,2025-06-28,1031,Nikhil Singh,West,Corporate,Laptop,Electronics,3,55000,0.0,Net Banking,165000.0,2025-06
+5468,2025-06-28,1029,Rahul Reddy,West,Consumer,Notebook Pack,Stationery,1,350,5.0,Debit Card,332.5,2025-06
+5469,2025-06-29,1005,Karthik Sharma,West,Consumer,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-06
+5470,2025-06-29,1012,Sneha Rao,East,Corporate,Laptop,Electronics,1,55000,0.0,Net Banking,55000.0,2025-06
+5471,2025-06-30,1021,Sneha Das,West,Consumer,Headphones,Electronics,2,2500,0.0,Credit Card,5000.0,2025-06
+5472,2025-06-30,1023,Diya Rao,South,Consumer,Notebook Pack,Stationery,4,350,0.0,UPI,1400.0,2025-06
+5473,2025-07-02,1022,Suresh Khan,North,Consumer,Desk Lamp,Furniture,1,900,0.0,Debit Card,900.0,2025-07
+5474,2025-07-02,1024,Arjun Rao,South,Corporate,Smartphone,Electronics,5,22000,0.0,Net Banking,110000.0,2025-07
+5475,2025-07-02,1047,Imran Patel,South,Small Business,Smartwatch,Electronics,2,6000,0.0,UPI,12000.0,2025-07
+5476,2025-07-02,1008,Suresh Das,West,Consumer,Pen Set,Stationery,1,200,0.0,Net Banking,200.0,2025-07
+5477,2025-07-03,1020,Meera Singh,South,Small Business,Smartwatch,Electronics,2,6000,0.0,Net Banking,12000.0,2025-07
+5478,2025-07-03,1010,Imran Patel,East,Small Business,Tablet,Electronics,4,18000,0.0,Net Banking,72000.0,2025-07
+5479,2025-07-03,1019,Tara Das,South,Consumer,Headphones,Electronics,1,2500,5.0,Debit Card,2375.0,2025-07
+5480,2025-07-03,1042,Sneha Das,East,Small Business,Office Chair,Furniture,1,7500,15.0,Credit Card,6375.0,2025-07
+5481,2025-07-04,1003,Arjun Das,East,Consumer,Standing Desk,Furniture,5,16000,0.0,Debit Card,80000.0,2025-07
+5482,2025-07-04,1021,Sneha Das,West,Consumer,Printer,Electronics,3,9500,15.0,UPI,24225.0,2025-07
+5483,2025-07-04,1002,Neha Patel,East,Corporate,Pen Set,Stationery,2,200,0.0,Net Banking,400.0,2025-07
+5484,2025-07-04,1058,Rahul Nair,North,Corporate,Pen Set,Stationery,4,200,0.0,Cash,800.0,2025-07
+5486,2025-07-05,1015,Rahul Patel,West,Corporate,Office Chair,Furniture,2,7500,10.0,Debit Card,13500.0,2025-07
+5487,2025-07-05,1012,Sneha Rao,East,Corporate,Office Chair,Furniture,3,7500,10.0,Cash,20250.0,2025-07
+5488,2025-07-05,1006,Rahul Rao,East,Corporate,Monitor,Electronics,1,12000,0.0,Debit Card,12000.0,2025-07
+5489,2025-07-05,1029,Rahul Reddy,West,Consumer,Headphones,Electronics,2,2500,10.0,Net Banking,4500.0,2025-07
+5490,2025-07-05,1046,Arjun Das,West,Consumer,Pen Set,Stationery,3,200,0.0,Net Banking,600.0,2025-07
+5491,2025-07-05,1036,Kavya Reddy,East,Consumer,Pen Set,Stationery,1,200,0.0,Net Banking,200.0,2025-07
+5492,2025-07-07,1053,Kavya Das,Unknown,Small Business,Smartphone,Electronics,5,22000,0.0,Cash,110000.0,2025-07
+5493,2025-07-07,1021,Sneha Das,West,Consumer,Standing Desk,Furniture,5,16000,15.0,Cash,68000.0,2025-07
+5494,2025-07-07,1017,Diya Nair,Unknown,Consumer,Headphones,Electronics,2,2500,0.0,Credit Card,5000.0,2025-07
+5495,2025-07-07,1029,Rahul Reddy,West,Consumer,Tablet,Electronics,2,18000,10.0,UPI,32400.0,2025-07
+5496,2025-07-08,1013,Kavya Singh,North,Consumer,Standing Desk,Furniture,1,16000,5.0,Debit Card,15200.0,2025-07
+5497,2025-07-08,1059,Aarav Reddy,West,Consumer,Headphones,Electronics,3,2500,5.0,Net Banking,7125.0,2025-07
+5498,2025-07-08,1012,Sneha Rao,East,Corporate,Desk Lamp,Furniture,1,900,5.0,UPI,855.0,2025-07
+5499,2025-07-08,1029,Rahul Reddy,West,Consumer,Monitor,Electronics,2,12000,0.0,Debit Card,24000.0,2025-07
+5500,2025-07-08,1032,Anjali Rao,South,Corporate,Desk Lamp,Furniture,3,900,0.0,UPI,2700.0,2025-07
+5501,2025-07-09,1004,Diya Singh,South,Consumer,Headphones,Electronics,4,2500,0.0,Debit Card,10000.0,2025-07
+5503,2025-07-09,1028,Pooja Sharma,North,Corporate,Headphones,Electronics,2,2500,0.0,Cash,5000.0,2025-07
+5504,2025-07-09,1016,Pooja Reddy,South,Corporate,Tablet,Electronics,4,18000,0.0,Net Banking,72000.0,2025-07
+5505,2025-07-10,1008,Suresh Das,West,Consumer,Monitor,Electronics,4,12000,0.0,Cash,48000.0,2025-07
+5506,2025-07-10,1003,Arjun Das,East,Consumer,Office Chair,Furniture,4,7500,0.0,Cash,30000.0,2025-07
+5507,2025-07-10,1001,Diya Das,South,Consumer,Headphones,Electronics,3,2500,0.0,Credit Card,7500.0,2025-07
+5508,2025-07-10,1029,Rahul Reddy,West,Consumer,Printer,Electronics,5,9500,0.0,Debit Card,47500.0,2025-07
+5509,2025-07-11,1006,Rahul Rao,East,Corporate,Smartwatch,Electronics,2,6000,15.0,UPI,10200.0,2025-07
+5510,2025-07-11,1058,Rahul Nair,North,Corporate,Laptop,Electronics,5,55000,0.0,Credit Card,275000.0,2025-07
+5511,2025-07-11,1015,Rahul Patel,West,Corporate,Tablet,Electronics,2,18000,15.0,Debit Card,30600.0,2025-07
+5512,2025-07-12,1040,Isha Singh,West,Corporate,Notebook Pack,Stationery,2,350,15.0,Cash,595.0,2025-07
+5513,2025-07-13,1041,Nikhil Patel,West,Consumer,Desk Lamp,Furniture,3,900,0.0,UPI,2700.0,2025-07
+5514,2025-07-13,1030,Suresh Singh,North,Corporate,Headphones,Electronics,3,2500,5.0,Net Banking,7125.0,2025-07
+5515,2025-07-13,1054,Kavya Singh,East,Corporate,Monitor,Electronics,4,12000,5.0,Debit Card,45600.0,2025-07
+5516,2025-07-13,1007,Suresh Das,North,Consumer,Printer,Electronics,2,9500,5.0,Net Banking,18050.0,2025-07
+5517,2025-07-13,1015,Rahul Patel,West,Corporate,Printer,Electronics,5,9500,0.0,Debit Card,47500.0,2025-07
+5518,2025-07-13,1016,Pooja Reddy,South,Corporate,Headphones,Electronics,2,2500,0.0,Debit Card,5000.0,2025-07
+5519,2025-07-14,1009,Rahul Reddy,East,Consumer,Smartphone,Electronics,3,22000,0.0,Cash,66000.0,2025-07
+5520,2025-07-14,1018,Tara Sharma,North,Consumer,Printer,Electronics,5,9500,5.0,Net Banking,45125.0,2025-07
+5521,2025-07-14,1019,Tara Das,South,Consumer,Headphones,Electronics,3,2500,15.0,UPI,6375.0,2025-07
+5523,2025-07-15,1019,Tara Das,Unknown,Consumer,Pen Set,Stationery,5,200,5.0,UPI,950.0,2025-07
+5524,2025-07-15,1053,Kavya Das,West,Small Business,Smartphone,Electronics,5,22000,0.0,Debit Card,110000.0,2025-07
+5525,2025-07-16,1047,Imran Patel,South,Small Business,Desk Lamp,Furniture,3,900,5.0,Net Banking,2565.0,2025-07
+5526,2025-07-16,1055,Pooja Singh,East,Consumer,Monitor,Electronics,3,12000,0.0,Net Banking,36000.0,2025-07
+5527,2025-07-17,1007,Suresh Das,North,Consumer,Pen Set,Stationery,1,200,10.0,Credit Card,180.0,2025-07
+5528,2025-07-17,1060,Karthik Sharma,East,Consumer,Office Chair,Furniture,3,7500,0.0,Credit Card,22500.0,2025-07
+5529,2025-07-17,1037,Pooja Reddy,North,Consumer,Printer,Electronics,5,9500,0.0,Debit Card,47500.0,2025-07
+5530,2025-07-17,1059,Aarav Reddy,West,Consumer,Notebook Pack,Stationery,3,350,0.0,Credit Card,1050.0,2025-07
+5531,2025-07-18,1022,Suresh Khan,North,Consumer,Pen Set,Stationery,2,200,15.0,UPI,340.0,2025-07
+5532,2025-07-18,1058,Rahul Nair,North,Corporate,Desk Lamp,Furniture,1,900,0.0,Credit Card,900.0,2025-07
+5533,2025-07-18,1036,Kavya Reddy,East,Consumer,Pen Set,Stationery,2,200,0.0,Debit Card,400.0,2025-07
+5534,2025-07-18,1005,Karthik Sharma,West,Consumer,Headphones,Electronics,2,2500,0.0,Debit Card,5000.0,2025-07
+5535,2025-07-19,1025,Neha Das,West,Consumer,Smartphone,Electronics,5,22000,0.0,Net Banking,110000.0,2025-07
+5536,2025-07-19,1009,Rahul Reddy,East,Consumer,Headphones,Electronics,3,2500,0.0,Debit Card,7500.0,2025-07
+5537,2025-07-20,1057,Isha Patel,East,Consumer,Notebook Pack,Stationery,1,350,5.0,Credit Card,332.5,2025-07
+5538,2025-07-20,1019,Tara Das,South,Consumer,Notebook Pack,Stationery,1,350,10.0,Cash,315.0,2025-07
+5539,2025-07-21,1014,Arjun Das,East,Small Business,Notebook Pack,Stationery,5,350,0.0,Cash,1750.0,2025-07
+5540,2025-07-21,1034,Nikhil Khan,South,Consumer,Smartwatch,Electronics,5,6000,0.0,Debit Card,30000.0,2025-07
+5541,2025-07-21,1026,Kavya Reddy,West,Small Business,Desk Lamp,Furniture,4,900,0.0,Debit Card,3600.0,2025-07
+5542,2025-07-22,1006,Rahul Rao,East,Corporate,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-07
+5543,2025-07-22,1049,Karthik Singh,South,Corporate,Headphones,Electronics,1,2500,5.0,Net Banking,2375.0,2025-07
+5544,2025-07-22,1051,Imran Reddy,North,Consumer,Pen Set,Stationery,1,200,5.0,Net Banking,190.0,2025-07
+5545,2025-07-22,1045,Kavya Das,South,Corporate,Pen Set,Stationery,4,200,5.0,UPI,760.0,2025-07
+5546,2025-07-22,1038,Neha Patel,East,Consumer,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-07
+5547,2025-07-22,1025,Neha Das,West,Consumer,Tablet,Electronics,5,18000,5.0,Credit Card,85500.0,2025-07
+5548,2025-07-23,1033,Arjun Khan,West,Consumer,Desk Lamp,Furniture,1,900,0.0,Net Banking,900.0,2025-07
+5549,2025-07-23,1032,Anjali Rao,South,Corporate,Monitor,Electronics,1,12000,0.0,UPI,12000.0,2025-07
+5550,2025-07-26,1010,Imran Patel,East,Small Business,Pen Set,Stationery,5,200,15.0,Credit Card,850.0,2025-07
+5551,2025-07-26,1005,Karthik Sharma,West,Consumer,Monitor,Electronics,5,12000,10.0,Credit Card,54000.0,2025-07
+5552,2025-07-26,1016,Pooja Reddy,South,Corporate,Monitor,Electronics,4,12000,15.0,Debit Card,40800.0,2025-07
+5553,2025-07-26,1028,Pooja Sharma,North,Corporate,Smartwatch,Electronics,1,6000,15.0,Credit Card,5100.0,2025-07
+5554,2025-07-27,1010,Imran Patel,East,Small Business,Notebook Pack,Stationery,1,350,5.0,Debit Card,332.5,2025-07
+5555,2025-07-28,1007,Suresh Das,North,Consumer,Standing Desk,Furniture,1,16000,15.0,Cash,13600.0,2025-07
+5556,2025-07-28,1052,Imran Sharma,North,Consumer,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-07
+5557,2025-07-28,1023,Diya Rao,South,Consumer,Smartphone,Electronics,5,22000,0.0,UPI,110000.0,2025-07
+5558,2025-07-28,1036,Kavya Reddy,East,Consumer,Office Chair,Furniture,4,7500,0.0,UPI,30000.0,2025-07
+5559,2025-07-30,1032,Anjali Rao,South,Corporate,Printer,Electronics,2,9500,0.0,UPI,19000.0,2025-07
+5560,2025-07-30,1045,Kavya Das,South,Corporate,Headphones,Electronics,4,2500,0.0,Net Banking,10000.0,2025-07
+5561,2025-07-31,1045,Kavya Das,South,Corporate,Desk Lamp,Furniture,1,900,0.0,Cash,900.0,2025-07
+5562,2025-07-31,1018,Tara Sharma,North,Consumer,Smartwatch,Electronics,5,6000,5.0,Debit Card,28500.0,2025-07
+5563,2025-08-01,1051,Imran Reddy,North,Consumer,Monitor,Electronics,5,12000,10.0,Cash,54000.0,2025-08
+5564,2025-08-01,1023,Diya Rao,South,Consumer,Monitor,Electronics,4,12000,5.0,Debit Card,45600.0,2025-08
+5565,2025-08-03,1051,Imran Reddy,North,Consumer,Headphones,Electronics,5,2500,0.0,Credit Card,12500.0,2025-08
+5566,2025-08-03,1025,Neha Das,West,Consumer,Desk Lamp,Furniture,3,900,5.0,Debit Card,2565.0,2025-08
+5567,2025-08-03,1007,Suresh Das,North,Consumer,Smartwatch,Electronics,3,6000,0.0,Cash,18000.0,2025-08
+5568,2025-08-03,1046,Arjun Das,West,Consumer,Notebook Pack,Stationery,2,350,0.0,UPI,700.0,2025-08
+5569,2025-08-03,1002,Neha Patel,East,Corporate,Pen Set,Stationery,5,200,0.0,Cash,1000.0,2025-08
+5570,2025-08-04,1047,Imran Patel,South,Small Business,Desk Lamp,Furniture,4,900,0.0,Debit Card,3600.0,2025-08
+5571,2025-08-04,1003,Arjun Das,East,Consumer,Laptop,Electronics,1,55000,0.0,UPI,55000.0,2025-08
+5572,2025-08-04,1013,Kavya Singh,North,Consumer,Headphones,Electronics,5,2500,10.0,Credit Card,11250.0,2025-08
+5573,2025-08-05,1037,Pooja Reddy,North,Consumer,Pen Set,Stationery,1,200,10.0,Debit Card,180.0,2025-08
+5574,2025-08-05,1057,Isha Patel,East,Consumer,Notebook Pack,Stationery,3,350,5.0,Credit Card,997.5,2025-08
+5575,2025-08-05,1025,Neha Das,West,Consumer,Standing Desk,Furniture,1,16000,0.0,Credit Card,16000.0,2025-08
+5576,2025-08-06,1008,Suresh Das,West,Consumer,Smartphone,Electronics,4,22000,10.0,Cash,79200.0,2025-08
+5577,2025-08-06,1014,Arjun Das,East,Small Business,Smartwatch,Electronics,3,6000,5.0,Debit Card,17100.0,2025-08
+5578,2025-08-07,1054,Kavya Singh,East,Corporate,Printer,Electronics,3,9500,0.0,Debit Card,28500.0,2025-08
+5579,2025-08-07,1044,Diya Khan,South,Consumer,Laptop,Electronics,4,55000,5.0,Cash,209000.0,2025-08
+5580,2025-08-07,1007,Suresh Das,North,Consumer,Smartwatch,Electronics,4,6000,0.0,UPI,24000.0,2025-08
+5581,2025-08-07,1024,Arjun Rao,South,Corporate,Monitor,Electronics,2,12000,0.0,Credit Card,24000.0,2025-08
+5582,2025-08-07,1016,Pooja Reddy,South,Corporate,Smartphone,Electronics,5,22000,0.0,UPI,110000.0,2025-08
+5583,2025-08-08,1011,Rahul Khan,East,Small Business,Pen Set,Stationery,3,200,0.0,Net Banking,600.0,2025-08
+5584,2025-08-08,1051,Imran Reddy,North,Consumer,Headphones,Electronics,1,2500,0.0,UPI,2500.0,2025-08
+5586,2025-08-09,1011,Rahul Khan,East,Small Business,Pen Set,Stationery,2,200,0.0,UPI,400.0,2025-08
+5587,2025-08-10,1040,Isha Singh,West,Corporate,Monitor,Electronics,4,12000,0.0,Credit Card,48000.0,2025-08
+5589,2025-08-10,1004,Diya Singh,South,Consumer,Notebook Pack,Stationery,2,350,0.0,Net Banking,700.0,2025-08
+5590,2025-08-12,1027,Anjali Patel,North,Corporate,Desk Lamp,Furniture,3,900,0.0,UPI,2700.0,2025-08
+5591,2025-08-12,1012,Sneha Rao,East,Corporate,Headphones,Electronics,5,2500,10.0,Credit Card,11250.0,2025-08
+5592,2025-08-12,1015,Rahul Patel,West,Corporate,Headphones,Electronics,3,2500,5.0,Net Banking,7125.0,2025-08
+5593,2025-08-13,1053,Kavya Das,West,Small Business,Laptop,Electronics,1,55000,15.0,Credit Card,46750.0,2025-08
+5594,2025-08-13,1043,Manoj Singh,South,Corporate,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-08
+5595,2025-08-13,1009,Rahul Reddy,East,Consumer,Pen Set,Stationery,3,200,0.0,Cash,600.0,2025-08
+5596,2025-08-13,1052,Imran Sharma,Unknown,Consumer,Notebook Pack,Stationery,3,350,5.0,UPI,997.5,2025-08
+5597,2025-08-13,1035,Diya Patel,South,Consumer,Pen Set,Stationery,5,200,0.0,Net Banking,1000.0,2025-08
+5598,2025-08-13,1053,Kavya Das,West,Small Business,Notebook Pack,Stationery,3,350,10.0,Net Banking,945.0,2025-08
+5599,2025-08-13,1045,Kavya Das,South,Corporate,Standing Desk,Furniture,4,16000,10.0,Net Banking,57600.0,2025-08
+5600,2025-08-14,1021,Sneha Das,West,Consumer,Office Chair,Furniture,3,7500,0.0,Credit Card,22500.0,2025-08
+5601,2025-08-15,1033,Arjun Khan,West,Consumer,Pen Set,Stationery,2,200,15.0,UPI,340.0,2025-08
+5602,2025-08-15,1032,Anjali Rao,South,Corporate,Headphones,Electronics,4,2500,5.0,Debit Card,9500.0,2025-08
+5603,2025-08-15,1044,Diya Khan,South,Consumer,Monitor,Electronics,4,12000,0.0,Credit Card,48000.0,2025-08
+5604,2025-08-15,1015,Rahul Patel,West,Corporate,Desk Lamp,Furniture,4,900,0.0,Net Banking,3600.0,2025-08
+5605,2025-08-16,1020,Meera Singh,South,Small Business,Smartwatch,Electronics,1,6000,0.0,Cash,6000.0,2025-08
+5606,2025-08-16,1015,Rahul Patel,West,Corporate,Notebook Pack,Stationery,4,350,10.0,Net Banking,1260.0,2025-08
+5607,2025-08-17,1018,Tara Sharma,North,Consumer,Tablet,Electronics,2,18000,0.0,Cash,36000.0,2025-08
+5608,2025-08-18,1010,Imran Patel,East,Small Business,Monitor,Electronics,4,12000,0.0,Cash,48000.0,2025-08
+5609,2025-08-18,1003,Arjun Das,East,Consumer,Monitor,Electronics,4,12000,5.0,UPI,45600.0,2025-08
+5610,2025-08-18,1057,Isha Patel,East,Consumer,Monitor,Electronics,4,12000,0.0,UPI,48000.0,2025-08
+5611,2025-08-19,1005,Karthik Sharma,West,Consumer,Smartwatch,Electronics,5,6000,0.0,UPI,30000.0,2025-08
+5612,2025-08-19,1054,Kavya Singh,East,Corporate,Tablet,Electronics,3,18000,5.0,Debit Card,51300.0,2025-08
+5613,2025-08-20,1001,Diya Das,South,Consumer,Headphones,Electronics,1,2500,0.0,Credit Card,2500.0,2025-08
+5614,2025-08-20,1047,Imran Patel,South,Small Business,Smartphone,Electronics,4,22000,0.0,Net Banking,88000.0,2025-08
+5615,2025-08-20,1020,Meera Singh,South,Small Business,Smartphone,Electronics,4,22000,0.0,UPI,88000.0,2025-08
+5616,2025-08-20,1032,Anjali Rao,South,Corporate,Smartphone,Electronics,1,22000,0.0,Net Banking,22000.0,2025-08
+5617,2025-08-20,1017,Diya Nair,East,Consumer,Monitor,Electronics,1,12000,0.0,Cash,12000.0,2025-08
+5618,2025-08-20,1030,Suresh Singh,North,Corporate,Smartphone,Electronics,2,22000,10.0,UPI,39600.0,2025-08
+5619,2025-08-20,1028,Pooja Sharma,North,Corporate,Tablet,Electronics,5,18000,15.0,UPI,76500.0,2025-08
+5620,2025-08-21,1032,Anjali Rao,South,Corporate,Desk Lamp,Furniture,3,900,0.0,Credit Card,2700.0,2025-08
+5621,2025-08-21,1024,Arjun Rao,South,Corporate,Notebook Pack,Stationery,5,350,15.0,Credit Card,1487.5,2025-08
+5622,2025-08-21,1033,Arjun Khan,West,Consumer,Desk Lamp,Furniture,5,900,5.0,Credit Card,4275.0,2025-08
+5623,2025-08-21,1050,Manoj Reddy,Unknown,Consumer,Notebook Pack,Stationery,3,350,5.0,Debit Card,997.5,2025-08
+5624,2025-08-21,1027,Anjali Patel,North,Corporate,Monitor,Electronics,4,12000,5.0,UPI,45600.0,2025-08
+5625,2025-08-22,1022,Suresh Khan,Unknown,Consumer,Notebook Pack,Stationery,2,350,5.0,UPI,665.0,2025-08
+5626,2025-08-22,1008,Suresh Das,West,Consumer,Notebook Pack,Stationery,1,350,10.0,Cash,315.0,2025-08
+5627,2025-08-23,1022,Suresh Khan,North,Consumer,Pen Set,Stationery,2,200,0.0,Net Banking,400.0,2025-08
+5628,2025-08-23,1008,Suresh Das,West,Consumer,Office Chair,Furniture,3,7500,0.0,Credit Card,22500.0,2025-08
+5629,2025-08-25,1011,Rahul Khan,East,Small Business,Smartwatch,Electronics,1,6000,0.0,Net Banking,6000.0,2025-08
+5630,2025-08-25,1058,Rahul Nair,North,Corporate,Standing Desk,Furniture,2,16000,0.0,Credit Card,32000.0,2025-08
+5631,2025-08-25,1006,Rahul Rao,East,Corporate,Tablet,Electronics,1,18000,5.0,Credit Card,17100.0,2025-08
+5632,2025-08-26,1029,Rahul Reddy,West,Consumer,Desk Lamp,Furniture,4,900,0.0,UPI,3600.0,2025-08
+5633,2025-08-26,1051,Imran Reddy,North,Consumer,Headphones,Electronics,5,2500,0.0,Debit Card,12500.0,2025-08
+5634,2025-08-26,1058,Rahul Nair,North,Corporate,Tablet,Electronics,5,18000,0.0,Debit Card,90000.0,2025-08
+5635,2025-08-26,1009,Rahul Reddy,East,Consumer,Headphones,Electronics,2,2500,0.0,Cash,5000.0,2025-08
+5636,2025-08-26,1010,Imran Patel,East,Small Business,Printer,Electronics,3,9500,5.0,UPI,27075.0,2025-08
+5637,2025-08-26,1023,Diya Rao,South,Consumer,Smartwatch,Electronics,5,6000,5.0,UPI,28500.0,2025-08
+5638,2025-08-26,1034,Nikhil Khan,South,Consumer,Pen Set,Stationery,3,200,0.0,Debit Card,600.0,2025-08
+5639,2025-08-27,1058,Rahul Nair,North,Corporate,Printer,Electronics,2,9500,0.0,UPI,19000.0,2025-08
+5641,2025-08-27,1010,Imran Patel,East,Small Business,Desk Lamp,Furniture,4,900,0.0,Cash,3600.0,2025-08
+5642,2025-08-28,1016,Pooja Reddy,Unknown,Corporate,Headphones,Electronics,3,2500,5.0,Net Banking,7125.0,2025-08
+5643,2025-08-28,1053,Kavya Das,West,Small Business,Headphones,Electronics,5,2500,5.0,Debit Card,11875.0,2025-08
+5645,2025-08-29,1023,Diya Rao,South,Consumer,Monitor,Electronics,1,12000,0.0,Net Banking,12000.0,2025-08
+5646,2025-08-30,1008,Suresh Das,West,Consumer,Headphones,Electronics,4,2500,15.0,Debit Card,8500.0,2025-08
+5647,2025-08-30,1010,Imran Patel,East,Small Business,Notebook Pack,Stationery,2,350,10.0,Cash,630.0,2025-08
+5648,2025-08-31,1056,Meera Das,South,Consumer,Headphones,Electronics,3,2500,0.0,UPI,7500.0,2025-08
+5649,2025-08-31,1001,Diya Das,South,Consumer,Notebook Pack,Stationery,2,350,0.0,Debit Card,700.0,2025-08
+5650,2025-08-31,1020,Meera Singh,South,Small Business,Notebook Pack,Stationery,2,350,0.0,UPI,700.0,2025-08
+5651,2025-09-01,1055,Pooja Singh,East,Consumer,Notebook Pack,Stationery,2,350,15.0,Cash,595.0,2025-09
+5652,2025-09-01,1037,Pooja Reddy,North,Consumer,Notebook Pack,Stationery,1,350,0.0,Credit Card,350.0,2025-09
+5653,2025-09-02,1005,Karthik Sharma,West,Consumer,Tablet,Electronics,4,18000,0.0,Net Banking,72000.0,2025-09
+5654,2025-09-02,1028,Pooja Sharma,North,Corporate,Pen Set,Stationery,1,200,0.0,UPI,200.0,2025-09
+5655,2025-09-02,1059,Aarav Reddy,West,Consumer,Pen Set,Stationery,2,200,5.0,Cash,380.0,2025-09
+5656,2025-09-02,1025,Neha Das,West,Consumer,Pen Set,Stationery,1,200,0.0,UPI,200.0,2025-09
+5657,2025-09-03,1032,Anjali Rao,South,Corporate,Smartphone,Electronics,1,22000,0.0,Cash,22000.0,2025-09
+5658,2025-09-04,1032,Anjali Rao,South,Corporate,Office Chair,Furniture,2,7500,0.0,Debit Card,15000.0,2025-09
+5659,2025-09-04,1040,Isha Singh,West,Corporate,Office Chair,Furniture,5,7500,5.0,Net Banking,35625.0,2025-09
+5660,2025-09-05,1012,Sneha Rao,East,Corporate,Smartphone,Electronics,5,22000,0.0,Cash,110000.0,2025-09
+5661,2025-09-05,1051,Imran Reddy,North,Consumer,Headphones,Electronics,2,2500,15.0,Credit Card,4250.0,2025-09
+5662,2025-09-05,1060,Karthik Sharma,East,Consumer,Office Chair,Furniture,3,7500,15.0,UPI,19125.0,2025-09
+5663,2025-09-06,1009,Rahul Reddy,East,Consumer,Pen Set,Stationery,5,200,0.0,Debit Card,1000.0,2025-09
+5664,2025-09-06,1050,Manoj Reddy,North,Consumer,Headphones,Electronics,2,2500,5.0,Debit Card,4750.0,2025-09
+5665,2025-09-07,1050,Manoj Reddy,North,Consumer,Desk Lamp,Furniture,5,900,0.0,UPI,4500.0,2025-09
+5666,2025-09-08,1045,Kavya Das,Unknown,Corporate,Notebook Pack,Stationery,1,350,0.0,Debit Card,350.0,2025-09
+5667,2025-09-08,1023,Diya Rao,South,Consumer,Desk Lamp,Furniture,2,900,5.0,Credit Card,1710.0,2025-09
+5668,2025-09-08,1029,Rahul Reddy,West,Consumer,Standing Desk,Furniture,2,16000,0.0,Credit Card,32000.0,2025-09
+5669,2025-09-08,1051,Imran Reddy,North,Consumer,Standing Desk,Furniture,1,16000,0.0,UPI,16000.0,2025-09
+5670,2025-09-09,1010,Imran Patel,East,Small Business,Notebook Pack,Stationery,5,350,0.0,Credit Card,1750.0,2025-09
+5671,2025-09-09,1050,Manoj Reddy,North,Consumer,Monitor,Electronics,5,12000,0.0,Credit Card,60000.0,2025-09
+5672,2025-09-10,1056,Meera Das,South,Consumer,Standing Desk,Furniture,2,16000,0.0,UPI,32000.0,2025-09
+5673,2025-09-10,1041,Nikhil Patel,West,Consumer,Notebook Pack,Stationery,5,350,5.0,Debit Card,1662.5,2025-09
+5674,2025-09-11,1021,Sneha Das,West,Consumer,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-09
+5675,2025-09-11,1034,Nikhil Khan,South,Consumer,Pen Set,Stationery,5,200,5.0,UPI,950.0,2025-09
+5676,2025-09-12,1004,Diya Singh,South,Consumer,Smartphone,Electronics,5,22000,10.0,Debit Card,99000.0,2025-09
+5677,2025-09-12,1056,Meera Das,South,Consumer,Notebook Pack,Stationery,3,350,0.0,UPI,1050.0,2025-09
+5678,2025-09-13,1021,Sneha Das,West,Consumer,Standing Desk,Furniture,1,16000,10.0,Net Banking,14400.0,2025-09
+5679,2025-09-14,1004,Diya Singh,South,Consumer,Monitor,Electronics,5,12000,0.0,Debit Card,60000.0,2025-09
+5680,2025-09-14,1048,Tara Khan,North,Consumer,Standing Desk,Furniture,4,16000,0.0,Net Banking,64000.0,2025-09
+5681,2025-09-15,1040,Isha Singh,West,Corporate,Standing Desk,Furniture,5,16000,15.0,Net Banking,68000.0,2025-09
+5682,2025-09-15,1038,Neha Patel,East,Consumer,Monitor,Electronics,5,12000,0.0,Net Banking,60000.0,2025-09
+5683,2025-09-16,1004,Diya Singh,South,Consumer,Office Chair,Furniture,1,7500,0.0,Debit Card,7500.0,2025-09
+5684,2025-09-16,1046,Arjun Das,West,Consumer,Tablet,Electronics,3,18000,0.0,Debit Card,54000.0,2025-09
+5685,2025-09-16,1039,Vikram Reddy,East,Consumer,Headphones,Electronics,1,2500,0.0,Cash,2500.0,2025-09
+5686,2025-09-17,1048,Tara Khan,North,Consumer,Smartphone,Electronics,1,22000,0.0,UPI,22000.0,2025-09
+5687,2025-09-17,1050,Manoj Reddy,North,Consumer,Laptop,Electronics,5,55000,0.0,Net Banking,275000.0,2025-09
+5688,2025-09-18,1013,Kavya Singh,Unknown,Consumer,Office Chair,Furniture,5,7500,10.0,Credit Card,33750.0,2025-09
+5689,2025-09-18,1013,Kavya Singh,North,Consumer,Desk Lamp,Furniture,5,900,0.0,UPI,4500.0,2025-09
+5690,2025-09-19,1056,Meera Das,South,Consumer,Pen Set,Stationery,5,200,0.0,Credit Card,1000.0,2025-09
+5691,2025-09-19,1032,Anjali Rao,South,Corporate,Laptop,Electronics,4,55000,0.0,Credit Card,220000.0,2025-09
+5692,2025-09-20,1027,Anjali Patel,North,Corporate,Notebook Pack,Stationery,3,350,10.0,UPI,945.0,2025-09
+5693,2025-09-21,1018,Tara Sharma,North,Consumer,Tablet,Electronics,5,18000,0.0,Cash,90000.0,2025-09
+5694,2025-09-21,1039,Vikram Reddy,East,Consumer,Monitor,Electronics,3,12000,0.0,UPI,36000.0,2025-09
+5695,2025-09-21,1046,Arjun Das,West,Consumer,Tablet,Electronics,4,18000,0.0,Net Banking,72000.0,2025-09
+5696,2025-09-21,1001,Diya Das,South,Consumer,Notebook Pack,Stationery,2,350,5.0,Debit Card,665.0,2025-09
+5697,2025-09-21,1034,Nikhil Khan,South,Consumer,Headphones,Electronics,4,2500,10.0,Cash,9000.0,2025-09
+5698,2025-09-22,1060,Karthik Sharma,East,Consumer,Pen Set,Stationery,5,200,5.0,Credit Card,950.0,2025-09
+5699,2025-09-22,1017,Diya Nair,East,Consumer,Office Chair,Furniture,4,7500,10.0,UPI,27000.0,2025-09
+5700,2025-09-22,1017,Diya Nair,East,Consumer,Pen Set,Stationery,3,200,0.0,UPI,600.0,2025-09
+5701,2025-09-22,1053,Kavya Das,West,Small Business,Headphones,Electronics,1,2500,0.0,Cash,2500.0,2025-09
+5702,2025-09-23,1004,Diya Singh,South,Consumer,Monitor,Electronics,1,12000,0.0,Cash,12000.0,2025-09
+5703,2025-09-23,1024,Arjun Rao,South,Corporate,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-09
+5704,2025-09-24,1028,Pooja Sharma,North,Corporate,Pen Set,Stationery,4,200,0.0,Credit Card,800.0,2025-09
+5705,2025-09-24,1048,Tara Khan,North,Consumer,Printer,Electronics,4,9500,0.0,Net Banking,38000.0,2025-09
+5706,2025-09-24,1008,Suresh Das,West,Consumer,Monitor,Electronics,5,12000,0.0,Net Banking,60000.0,2025-09
+5707,2025-09-24,1027,Anjali Patel,North,Corporate,Headphones,Electronics,3,2500,5.0,Debit Card,7125.0,2025-09
+5708,2025-09-24,1010,Imran Patel,East,Small Business,Headphones,Electronics,5,2500,0.0,Credit Card,12500.0,2025-09
+5709,2025-09-25,1048,Tara Khan,Unknown,Consumer,Headphones,Electronics,4,2500,5.0,Credit Card,9500.0,2025-09
+5710,2025-09-25,1038,Neha Patel,East,Consumer,Headphones,Electronics,2,2500,5.0,Debit Card,4750.0,2025-09
+5711,2025-09-25,1030,Suresh Singh,North,Corporate,Notebook Pack,Stationery,5,350,0.0,Debit Card,1750.0,2025-09
+5712,2025-09-26,1024,Arjun Rao,South,Corporate,Monitor,Electronics,1,12000,0.0,UPI,12000.0,2025-09
+5713,2025-09-26,1010,Imran Patel,East,Small Business,Monitor,Electronics,3,12000,5.0,UPI,34200.0,2025-09
+5714,2025-09-26,1056,Meera Das,South,Consumer,Notebook Pack,Stationery,5,350,5.0,Debit Card,1662.5,2025-09
+5715,2025-09-26,1039,Vikram Reddy,East,Consumer,Notebook Pack,Stationery,4,350,0.0,Cash,1400.0,2025-09
+5716,2025-09-26,1020,Meera Singh,South,Small Business,Printer,Electronics,5,9500,0.0,UPI,47500.0,2025-09
+5717,2025-09-26,1025,Neha Das,West,Consumer,Monitor,Electronics,1,12000,5.0,Debit Card,11400.0,2025-09
+5718,2025-09-27,1044,Diya Khan,South,Consumer,Headphones,Electronics,3,2500,5.0,UPI,7125.0,2025-09
+5719,2025-09-27,1044,Diya Khan,South,Consumer,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-09
+5720,2025-09-27,1028,Pooja Sharma,North,Corporate,Desk Lamp,Furniture,4,900,0.0,Cash,3600.0,2025-09
+5721,2025-09-27,1019,Tara Das,South,Consumer,Headphones,Electronics,5,2500,10.0,Credit Card,11250.0,2025-09
+5722,2025-09-27,1040,Isha Singh,West,Corporate,Office Chair,Furniture,3,7500,0.0,Credit Card,22500.0,2025-09
+5723,2025-09-27,1040,Isha Singh,West,Corporate,Monitor,Electronics,4,12000,10.0,Net Banking,43200.0,2025-09
+5724,2025-09-27,1036,Kavya Reddy,East,Consumer,Monitor,Electronics,3,12000,0.0,UPI,36000.0,2025-09
+5725,2025-09-28,1005,Karthik Sharma,West,Consumer,Monitor,Electronics,5,12000,0.0,UPI,60000.0,2025-09
+5726,2025-09-29,1029,Rahul Reddy,West,Consumer,Desk Lamp,Furniture,1,900,0.0,Net Banking,900.0,2025-09
+5727,2025-09-29,1037,Pooja Reddy,North,Consumer,Headphones,Electronics,2,2500,0.0,Debit Card,5000.0,2025-09
+5728,2025-09-29,1058,Rahul Nair,North,Corporate,Headphones,Electronics,1,2500,15.0,UPI,2125.0,2025-09
+5729,2025-09-30,1032,Anjali Rao,South,Corporate,Notebook Pack,Stationery,4,350,0.0,Debit Card,1400.0,2025-09
+5730,2025-09-30,1021,Sneha Das,West,Consumer,Notebook Pack,Stationery,2,350,15.0,Debit Card,595.0,2025-09
+5731,2025-09-30,1034,Nikhil Khan,South,Consumer,Notebook Pack,Stationery,2,350,0.0,Credit Card,700.0,2025-09
+5732,2025-10-01,1011,Rahul Khan,East,Small Business,Notebook Pack,Stationery,5,350,10.0,Debit Card,1575.0,2025-10
+5733,2025-10-01,1006,Rahul Rao,East,Corporate,Office Chair,Furniture,2,7500,15.0,Cash,12750.0,2025-10
+5734,2025-10-01,1041,Nikhil Patel,West,Consumer,Pen Set,Stationery,1,200,5.0,Credit Card,190.0,2025-10
+5735,2025-10-01,1060,Karthik Sharma,East,Consumer,Smartwatch,Electronics,1,6000,0.0,Net Banking,6000.0,2025-10
+5736,2025-10-02,1051,Imran Reddy,North,Consumer,Smartwatch,Electronics,2,6000,5.0,Debit Card,11400.0,2025-10
+5737,2025-10-02,1036,Kavya Reddy,East,Consumer,Smartphone,Electronics,5,22000,0.0,Net Banking,110000.0,2025-10
+5738,2025-10-03,1003,Arjun Das,East,Consumer,Tablet,Electronics,3,18000,15.0,UPI,45900.0,2025-10
+5739,2025-10-04,1060,Karthik Sharma,East,Consumer,Printer,Electronics,5,9500,0.0,Credit Card,47500.0,2025-10
+5740,2025-10-05,1027,Anjali Patel,North,Corporate,Office Chair,Furniture,2,7500,0.0,Cash,15000.0,2025-10
+5741,2025-10-06,1018,Tara Sharma,North,Consumer,Headphones,Electronics,2,2500,0.0,Net Banking,5000.0,2025-10
+5742,2025-10-06,1054,Kavya Singh,East,Corporate,Pen Set,Stationery,1,200,5.0,Credit Card,190.0,2025-10
+5743,2025-10-06,1045,Kavya Das,South,Corporate,Notebook Pack,Stationery,2,350,15.0,Net Banking,595.0,2025-10
+5744,2025-10-06,1045,Kavya Das,South,Corporate,Laptop,Electronics,3,55000,0.0,UPI,165000.0,2025-10
+5745,2025-10-07,1017,Diya Nair,East,Consumer,Headphones,Electronics,5,2500,5.0,Debit Card,11875.0,2025-10
+5746,2025-10-07,1060,Karthik Sharma,East,Consumer,Tablet,Electronics,2,18000,15.0,Credit Card,30600.0,2025-10
+5747,2025-10-07,1028,Pooja Sharma,North,Corporate,Pen Set,Stationery,4,200,0.0,Debit Card,800.0,2025-10
+5748,2025-10-08,1032,Anjali Rao,South,Corporate,Headphones,Electronics,4,2500,0.0,Net Banking,10000.0,2025-10
+5749,2025-10-08,1046,Arjun Das,West,Consumer,Smartphone,Electronics,2,22000,5.0,Cash,41800.0,2025-10
+5750,2025-10-09,1040,Isha Singh,West,Corporate,Smartphone,Electronics,5,22000,5.0,Cash,104500.0,2025-10
+5752,2025-10-09,1019,Tara Das,South,Consumer,Laptop,Electronics,1,55000,10.0,Net Banking,49500.0,2025-10
+5753,2025-10-09,1022,Suresh Khan,North,Consumer,Printer,Electronics,5,9500,0.0,Debit Card,47500.0,2025-10
+5754,2025-10-09,1057,Isha Patel,East,Consumer,Tablet,Electronics,5,18000,15.0,Cash,76500.0,2025-10
+5755,2025-10-09,1043,Manoj Singh,South,Corporate,Notebook Pack,Stationery,1,350,10.0,Cash,315.0,2025-10
+5756,2025-10-10,1022,Suresh Khan,North,Consumer,Office Chair,Furniture,5,7500,10.0,Cash,33750.0,2025-10
+5757,2025-10-10,1045,Kavya Das,South,Corporate,Office Chair,Furniture,5,7500,0.0,Cash,37500.0,2025-10
+5758,2025-10-11,1045,Kavya Das,South,Corporate,Smartphone,Electronics,5,22000,0.0,Debit Card,110000.0,2025-10
+5759,2025-10-11,1024,Arjun Rao,South,Corporate,Desk Lamp,Furniture,2,900,0.0,Cash,1800.0,2025-10
+5760,2025-10-11,1025,Neha Das,West,Consumer,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-10
+5761,2025-10-11,1054,Kavya Singh,East,Corporate,Laptop,Electronics,3,55000,5.0,Credit Card,156750.0,2025-10
+5762,2025-10-12,1034,Nikhil Khan,South,Consumer,Tablet,Electronics,4,18000,0.0,Debit Card,72000.0,2025-10
+5763,2025-10-12,1009,Rahul Reddy,East,Consumer,Monitor,Electronics,4,12000,0.0,UPI,48000.0,2025-10
+5764,2025-10-12,1044,Diya Khan,South,Consumer,Notebook Pack,Stationery,4,350,0.0,Credit Card,1400.0,2025-10
+5765,2025-10-13,1036,Kavya Reddy,East,Consumer,Tablet,Electronics,3,18000,0.0,Cash,54000.0,2025-10
+5766,2025-10-13,1031,Nikhil Singh,West,Corporate,Headphones,Electronics,4,2500,0.0,Cash,10000.0,2025-10
+5767,2025-10-13,1044,Diya Khan,South,Consumer,Pen Set,Stationery,3,200,5.0,Credit Card,570.0,2025-10
+5768,2025-10-14,1055,Pooja Singh,East,Consumer,Pen Set,Stationery,1,200,10.0,Debit Card,180.0,2025-10
+5769,2025-10-14,1020,Meera Singh,South,Small Business,Notebook Pack,Stationery,1,350,0.0,Net Banking,350.0,2025-10
+5770,2025-10-14,1026,Kavya Reddy,West,Small Business,Monitor,Electronics,5,12000,10.0,UPI,54000.0,2025-10
+5771,2025-10-14,1012,Sneha Rao,East,Corporate,Standing Desk,Furniture,5,16000,10.0,UPI,72000.0,2025-10
+5772,2025-10-14,1039,Vikram Reddy,East,Consumer,Headphones,Electronics,3,2500,0.0,Credit Card,7500.0,2025-10
+5773,2025-10-15,1025,Neha Das,West,Consumer,Standing Desk,Furniture,1,16000,5.0,Cash,15200.0,2025-10
+5774,2025-10-17,1021,Sneha Das,West,Consumer,Smartwatch,Electronics,4,6000,0.0,Credit Card,24000.0,2025-10
+5775,2025-10-17,1042,Sneha Das,East,Small Business,Headphones,Electronics,1,2500,0.0,Net Banking,2500.0,2025-10
+5776,2025-10-17,1025,Neha Das,West,Consumer,Laptop,Electronics,2,55000,0.0,Net Banking,110000.0,2025-10
+5777,2025-10-17,1028,Pooja Sharma,North,Corporate,Smartwatch,Electronics,2,6000,0.0,Debit Card,12000.0,2025-10
+5778,2025-10-18,1027,Anjali Patel,North,Corporate,Pen Set,Stationery,1,200,10.0,Credit Card,180.0,2025-10
+5779,2025-10-18,1016,Pooja Reddy,South,Corporate,Laptop,Electronics,5,55000,15.0,UPI,233750.0,2025-10
+5780,2025-10-18,1008,Suresh Das,West,Consumer,Office Chair,Furniture,3,7500,10.0,Net Banking,20250.0,2025-10
+5781,2025-10-19,1050,Manoj Reddy,North,Consumer,Pen Set,Stationery,2,200,5.0,Net Banking,380.0,2025-10
+5782,2025-10-19,1006,Rahul Rao,East,Corporate,Notebook Pack,Stationery,3,350,5.0,Debit Card,997.5,2025-10
+5783,2025-10-20,1020,Meera Singh,South,Small Business,Desk Lamp,Furniture,1,900,15.0,Debit Card,765.0,2025-10
+5784,2025-10-20,1041,Nikhil Patel,West,Consumer,Desk Lamp,Furniture,3,900,0.0,Cash,2700.0,2025-10
+5785,2025-10-20,1008,Suresh Das,West,Consumer,Pen Set,Stationery,3,200,0.0,Cash,600.0,2025-10
+5786,2025-10-20,1040,Isha Singh,West,Corporate,Smartphone,Electronics,2,22000,5.0,UPI,41800.0,2025-10
+5787,2025-10-20,1044,Diya Khan,South,Consumer,Standing Desk,Furniture,5,16000,0.0,Cash,80000.0,2025-10
+5788,2025-10-20,1040,Isha Singh,West,Corporate,Notebook Pack,Stationery,2,350,0.0,Net Banking,700.0,2025-10
+5789,2025-10-20,1019,Tara Das,South,Consumer,Headphones,Electronics,1,2500,0.0,Cash,2500.0,2025-10
+5790,2025-10-20,1002,Neha Patel,East,Corporate,Laptop,Electronics,3,55000,5.0,Debit Card,156750.0,2025-10
+5791,2025-10-21,1054,Kavya Singh,East,Corporate,Headphones,Electronics,5,2500,0.0,Debit Card,12500.0,2025-10
+5792,2025-10-21,1020,Meera Singh,South,Small Business,Office Chair,Furniture,2,7500,0.0,Credit Card,15000.0,2025-10
+5793,2025-10-21,1049,Karthik Singh,South,Corporate,Office Chair,Furniture,1,7500,0.0,Cash,7500.0,2025-10
+5794,2025-10-21,1012,Sneha Rao,East,Corporate,Tablet,Electronics,5,18000,0.0,Credit Card,90000.0,2025-10
+5795,2025-10-21,1010,Imran Patel,East,Small Business,Desk Lamp,Furniture,3,900,10.0,Credit Card,2430.0,2025-10
+5796,2025-10-23,1047,Imran Patel,South,Small Business,Monitor,Electronics,1,12000,0.0,Credit Card,12000.0,2025-10
+5797,2025-10-23,1057,Isha Patel,East,Consumer,Headphones,Electronics,4,2500,5.0,Credit Card,9500.0,2025-10
+5798,2025-10-23,1052,Imran Sharma,North,Consumer,Monitor,Electronics,2,12000,10.0,Credit Card,21600.0,2025-10
+5799,2025-10-23,1046,Arjun Das,West,Consumer,Laptop,Electronics,5,55000,0.0,UPI,275000.0,2025-10
+5800,2025-10-24,1015,Rahul Patel,West,Corporate,Monitor,Electronics,2,12000,10.0,Cash,21600.0,2025-10
+5801,2025-10-26,1055,Pooja Singh,East,Consumer,Monitor,Electronics,3,12000,5.0,Debit Card,34200.0,2025-10
+5803,2025-10-27,1011,Rahul Khan,East,Small Business,Desk Lamp,Furniture,2,900,0.0,UPI,1800.0,2025-10
+5804,2025-10-27,1008,Suresh Das,West,Consumer,Monitor,Electronics,3,12000,0.0,Cash,36000.0,2025-10
+5805,2025-10-27,1053,Kavya Das,West,Small Business,Monitor,Electronics,1,12000,15.0,UPI,10200.0,2025-10
+5806,2025-10-27,1017,Diya Nair,East,Consumer,Monitor,Electronics,4,12000,10.0,Debit Card,43200.0,2025-10
+5807,2025-10-28,1046,Arjun Das,West,Consumer,Notebook Pack,Stationery,4,350,15.0,Debit Card,1190.0,2025-10
+5808,2025-10-29,1009,Rahul Reddy,East,Consumer,Smartphone,Electronics,5,22000,15.0,Debit Card,93500.0,2025-10
+5809,2025-10-29,1017,Diya Nair,East,Consumer,Printer,Electronics,2,9500,0.0,Cash,19000.0,2025-10
+5810,2025-10-29,1018,Tara Sharma,North,Consumer,Notebook Pack,Stationery,2,350,10.0,Net Banking,630.0,2025-10
+5811,2025-10-29,1017,Diya Nair,East,Consumer,Notebook Pack,Stationery,3,350,0.0,Credit Card,1050.0,2025-10
+5812,2025-10-29,1041,Nikhil Patel,West,Consumer,Office Chair,Furniture,4,7500,10.0,Net Banking,27000.0,2025-10
+5813,2025-10-29,1055,Pooja Singh,East,Consumer,Notebook Pack,Stationery,5,350,0.0,UPI,1750.0,2025-10
+5814,2025-10-30,1055,Pooja Singh,East,Consumer,Tablet,Electronics,1,18000,0.0,Credit Card,18000.0,2025-10
+5815,2025-10-30,1045,Kavya Das,South,Corporate,Pen Set,Stationery,2,200,10.0,Credit Card,360.0,2025-10
+5816,2025-10-30,1013,Kavya Singh,Unknown,Consumer,Smartphone,Electronics,2,22000,10.0,Net Banking,39600.0,2025-10
+5817,2025-10-31,1058,Rahul Nair,North,Corporate,Pen Set,Stationery,2,200,5.0,UPI,380.0,2025-10
+5818,2025-10-31,1033,Arjun Khan,West,Consumer,Printer,Electronics,3,9500,0.0,Credit Card,28500.0,2025-10
+5819,2025-11-01,1033,Arjun Khan,Unknown,Consumer,Standing Desk,Furniture,5,16000,0.0,Debit Card,80000.0,2025-11
+5820,2025-11-01,1043,Manoj Singh,South,Corporate,Notebook Pack,Stationery,1,350,15.0,Net Banking,297.5,2025-11
+5821,2025-11-01,1047,Imran Patel,South,Small Business,Headphones,Electronics,5,2500,0.0,Debit Card,12500.0,2025-11
+5822,2025-11-02,1058,Rahul Nair,North,Corporate,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-11
+5823,2025-11-02,1035,Diya Patel,South,Consumer,Pen Set,Stationery,4,200,5.0,Cash,760.0,2025-11
+5824,2025-11-02,1037,Pooja Reddy,North,Consumer,Smartwatch,Electronics,4,6000,0.0,Cash,24000.0,2025-11
+5825,2025-11-02,1045,Kavya Das,South,Corporate,Tablet,Electronics,1,18000,5.0,Cash,17100.0,2025-11
+5826,2025-11-02,1016,Pooja Reddy,South,Corporate,Headphones,Electronics,4,2500,0.0,UPI,10000.0,2025-11
+5827,2025-11-03,1019,Tara Das,South,Consumer,Standing Desk,Furniture,2,16000,10.0,Debit Card,28800.0,2025-11
+5828,2025-11-03,1038,Neha Patel,East,Consumer,Monitor,Electronics,3,12000,15.0,Debit Card,30600.0,2025-11
+5829,2025-11-03,1004,Diya Singh,South,Consumer,Pen Set,Stationery,4,200,15.0,Credit Card,680.0,2025-11
+5830,2025-11-03,1020,Meera Singh,South,Small Business,Headphones,Electronics,4,2500,5.0,UPI,9500.0,2025-11
+5831,2025-11-03,1044,Diya Khan,South,Consumer,Printer,Electronics,2,9500,0.0,UPI,19000.0,2025-11
+5832,2025-11-04,1059,Aarav Reddy,West,Consumer,Smartwatch,Electronics,2,6000,5.0,Cash,11400.0,2025-11
+5833,2025-11-04,1032,Anjali Rao,South,Corporate,Printer,Electronics,3,9500,10.0,Cash,25650.0,2025-11
+5834,2025-11-04,1024,Arjun Rao,South,Corporate,Headphones,Electronics,1,2500,5.0,Credit Card,2375.0,2025-11
+5835,2025-11-04,1027,Anjali Patel,North,Corporate,Notebook Pack,Stationery,4,350,5.0,Cash,1330.0,2025-11
+5836,2025-11-05,1042,Sneha Das,East,Small Business,Monitor,Electronics,1,12000,5.0,Cash,11400.0,2025-11
+5837,2025-11-05,1033,Arjun Khan,West,Consumer,Headphones,Electronics,3,2500,5.0,Net Banking,7125.0,2025-11
+5838,2025-11-05,1002,Neha Patel,East,Corporate,Pen Set,Stationery,4,200,5.0,Net Banking,760.0,2025-11
+5839,2025-11-05,1033,Arjun Khan,West,Consumer,Monitor,Electronics,1,12000,0.0,Net Banking,12000.0,2025-11
+5840,2025-11-05,1025,Neha Das,West,Consumer,Tablet,Electronics,5,18000,0.0,UPI,90000.0,2025-11
+5841,2025-11-06,1043,Manoj Singh,Unknown,Corporate,Smartphone,Electronics,2,22000,5.0,Cash,41800.0,2025-11
+5842,2025-11-06,1053,Kavya Das,West,Small Business,Pen Set,Stationery,1,200,0.0,Credit Card,200.0,2025-11
+5843,2025-11-06,1058,Rahul Nair,North,Corporate,Smartwatch,Electronics,4,6000,10.0,Debit Card,21600.0,2025-11
+5844,2025-11-07,1037,Pooja Reddy,North,Consumer,Smartphone,Electronics,3,22000,5.0,Cash,62700.0,2025-11
+5845,2025-11-07,1022,Suresh Khan,North,Consumer,Standing Desk,Furniture,4,16000,0.0,Cash,64000.0,2025-11
+5846,2025-11-07,1027,Anjali Patel,North,Corporate,Pen Set,Stationery,4,200,10.0,Debit Card,720.0,2025-11
+5847,2025-11-07,1011,Rahul Khan,East,Small Business,Headphones,Electronics,3,2500,5.0,Net Banking,7125.0,2025-11
+5848,2025-11-07,1057,Isha Patel,East,Consumer,Smartwatch,Electronics,5,6000,10.0,UPI,27000.0,2025-11
+5849,2025-11-07,1051,Imran Reddy,North,Consumer,Printer,Electronics,2,9500,0.0,UPI,19000.0,2025-11
+5850,2025-11-07,1052,Imran Sharma,North,Consumer,Notebook Pack,Stationery,3,350,10.0,UPI,945.0,2025-11
+5851,2025-11-08,1020,Meera Singh,South,Small Business,Printer,Electronics,1,9500,0.0,Net Banking,9500.0,2025-11
+5852,2025-11-08,1020,Meera Singh,South,Small Business,Office Chair,Furniture,4,7500,5.0,Debit Card,28500.0,2025-11
+5853,2025-11-08,1052,Imran Sharma,North,Consumer,Monitor,Electronics,2,12000,0.0,Debit Card,24000.0,2025-11
+5854,2025-11-09,1033,Arjun Khan,West,Consumer,Pen Set,Stationery,4,200,5.0,Cash,760.0,2025-11
+5855,2025-11-10,1043,Manoj Singh,South,Corporate,Smartphone,Electronics,5,22000,5.0,Debit Card,104500.0,2025-11
+5856,2025-11-10,1030,Suresh Singh,North,Corporate,Monitor,Electronics,5,12000,5.0,Debit Card,57000.0,2025-11
+5857,2025-11-10,1027,Anjali Patel,North,Corporate,Standing Desk,Furniture,5,16000,0.0,UPI,80000.0,2025-11
+5858,2025-11-11,1038,Neha Patel,East,Consumer,Tablet,Electronics,1,18000,10.0,UPI,16200.0,2025-11
+5859,2025-11-12,1049,Karthik Singh,South,Corporate,Tablet,Electronics,1,18000,5.0,Net Banking,17100.0,2025-11
+5860,2025-11-12,1021,Sneha Das,West,Consumer,Pen Set,Stationery,5,200,0.0,Debit Card,1000.0,2025-11
+5861,2025-11-12,1049,Karthik Singh,South,Corporate,Laptop,Electronics,2,55000,15.0,UPI,93500.0,2025-11
+5862,2025-11-13,1015,Rahul Patel,West,Corporate,Headphones,Electronics,1,2500,5.0,Credit Card,2375.0,2025-11
+5863,2025-11-13,1025,Neha Das,West,Consumer,Tablet,Electronics,2,18000,15.0,Credit Card,30600.0,2025-11
+5864,2025-11-13,1055,Pooja Singh,East,Consumer,Office Chair,Furniture,5,7500,15.0,Credit Card,31875.0,2025-11
+5865,2025-11-14,1058,Rahul Nair,North,Corporate,Office Chair,Furniture,2,7500,15.0,Credit Card,12750.0,2025-11
+5866,2025-11-15,1056,Meera Das,South,Consumer,Notebook Pack,Stationery,1,350,10.0,Cash,315.0,2025-11
+5867,2025-11-16,1019,Tara Das,South,Consumer,Headphones,Electronics,4,2500,5.0,UPI,9500.0,2025-11
+5868,2025-11-16,1051,Imran Reddy,North,Consumer,Laptop,Electronics,1,55000,0.0,Credit Card,55000.0,2025-11
+5869,2025-11-16,1057,Isha Patel,East,Consumer,Notebook Pack,Stationery,2,350,0.0,Debit Card,700.0,2025-11
+5870,2025-11-17,1059,Aarav Reddy,West,Consumer,Smartwatch,Electronics,1,6000,10.0,Debit Card,5400.0,2025-11
+5871,2025-11-17,1002,Neha Patel,East,Corporate,Pen Set,Stationery,4,200,0.0,Net Banking,800.0,2025-11
+5872,2025-11-17,1045,Kavya Das,South,Corporate,Smartphone,Electronics,3,22000,10.0,Net Banking,59400.0,2025-11
+5873,2025-11-18,1060,Karthik Sharma,East,Consumer,Laptop,Electronics,5,55000,0.0,Credit Card,275000.0,2025-11
+5874,2025-11-18,1046,Arjun Das,West,Consumer,Headphones,Electronics,2,2500,0.0,Debit Card,5000.0,2025-11
+5875,2025-11-19,1014,Arjun Das,East,Small Business,Office Chair,Furniture,2,7500,0.0,UPI,15000.0,2025-11
+5876,2025-11-20,1046,Arjun Das,West,Consumer,Smartwatch,Electronics,1,6000,0.0,Cash,6000.0,2025-11
+5877,2025-11-20,1007,Suresh Das,North,Consumer,Desk Lamp,Furniture,2,900,0.0,UPI,1800.0,2025-11
+5878,2025-11-21,1029,Rahul Reddy,West,Consumer,Smartwatch,Electronics,3,6000,0.0,UPI,18000.0,2025-11
+5879,2025-11-22,1038,Neha Patel,East,Consumer,Notebook Pack,Stationery,1,350,10.0,Cash,315.0,2025-11
+5880,2025-11-22,1028,Pooja Sharma,Unknown,Corporate,Notebook Pack,Stationery,3,350,0.0,UPI,1050.0,2025-11
+5881,2025-11-22,1042,Sneha Das,Unknown,Small Business,Laptop,Electronics,5,55000,0.0,Debit Card,275000.0,2025-11
+5882,2025-11-23,1015,Rahul Patel,West,Corporate,Notebook Pack,Stationery,4,350,0.0,UPI,1400.0,2025-11
+5883,2025-11-23,1037,Pooja Reddy,North,Consumer,Smartwatch,Electronics,4,6000,0.0,Cash,24000.0,2025-11
+5884,2025-11-24,1039,Vikram Reddy,East,Consumer,Office Chair,Furniture,5,7500,0.0,Cash,37500.0,2025-11
+5885,2025-11-24,1039,Vikram Reddy,East,Consumer,Smartphone,Electronics,4,22000,5.0,Debit Card,83600.0,2025-11
+5886,2025-11-24,1018,Tara Sharma,North,Consumer,Desk Lamp,Furniture,4,900,10.0,Net Banking,3240.0,2025-11
+5887,2025-11-26,1019,Tara Das,South,Consumer,Monitor,Electronics,5,12000,0.0,Debit Card,60000.0,2025-11
+5888,2025-11-26,1016,Pooja Reddy,South,Corporate,Laptop,Electronics,1,55000,5.0,UPI,52250.0,2025-11
+5889,2025-11-26,1028,Pooja Sharma,North,Corporate,Notebook Pack,Stationery,5,350,0.0,UPI,1750.0,2025-11
+5890,2025-11-27,1036,Kavya Reddy,East,Consumer,Desk Lamp,Furniture,2,900,0.0,Credit Card,1800.0,2025-11
+5891,2025-11-28,1022,Suresh Khan,North,Consumer,Headphones,Electronics,4,2500,10.0,Credit Card,9000.0,2025-11
+5892,2025-11-28,1025,Neha Das,West,Consumer,Desk Lamp,Furniture,5,900,0.0,Credit Card,4500.0,2025-11
+5893,2025-11-28,1018,Tara Sharma,North,Consumer,Notebook Pack,Stationery,3,350,10.0,Credit Card,945.0,2025-11
+5894,2025-11-28,1014,Arjun Das,East,Small Business,Monitor,Electronics,1,12000,0.0,Debit Card,12000.0,2025-11
+5895,2025-11-29,1040,Isha Singh,West,Corporate,Monitor,Electronics,2,12000,0.0,UPI,24000.0,2025-11
+5896,2025-11-30,1049,Karthik Singh,South,Corporate,Laptop,Electronics,3,55000,0.0,Cash,165000.0,2025-11
+5897,2025-12-01,1018,Tara Sharma,North,Consumer,Office Chair,Furniture,5,7500,0.0,Credit Card,37500.0,2025-12
+5898,2025-12-01,1052,Imran Sharma,North,Consumer,Notebook Pack,Stationery,5,350,15.0,Cash,1487.5,2025-12
+5899,2025-12-01,1035,Diya Patel,South,Consumer,Tablet,Electronics,3,18000,0.0,Debit Card,54000.0,2025-12
+5900,2025-12-01,1011,Rahul Khan,East,Small Business,Smartwatch,Electronics,5,6000,10.0,Net Banking,27000.0,2025-12
+5901,2025-12-02,1022,Suresh Khan,North,Consumer,Monitor,Electronics,3,12000,10.0,Debit Card,32400.0,2025-12
+5902,2025-12-02,1001,Diya Das,South,Consumer,Laptop,Electronics,3,55000,5.0,Credit Card,156750.0,2025-12
+5903,2025-12-02,1003,Arjun Das,East,Consumer,Office Chair,Furniture,5,7500,0.0,Debit Card,37500.0,2025-12
+5904,2025-12-02,1021,Sneha Das,West,Consumer,Printer,Electronics,4,9500,0.0,Cash,38000.0,2025-12
+5905,2025-12-02,1028,Pooja Sharma,North,Corporate,Headphones,Electronics,3,2500,0.0,Debit Card,7500.0,2025-12
+5906,2025-12-02,1048,Tara Khan,North,Consumer,Standing Desk,Furniture,3,16000,10.0,Debit Card,43200.0,2025-12
+5907,2025-12-03,1009,Rahul Reddy,East,Consumer,Monitor,Electronics,4,12000,0.0,Debit Card,48000.0,2025-12
+5908,2025-12-03,1051,Imran Reddy,North,Consumer,Standing Desk,Furniture,4,16000,15.0,Credit Card,54400.0,2025-12
+5909,2025-12-03,1015,Rahul Patel,West,Corporate,Tablet,Electronics,3,18000,5.0,Credit Card,51300.0,2025-12
+5910,2025-12-04,1009,Rahul Reddy,East,Consumer,Smartphone,Electronics,1,22000,0.0,Net Banking,22000.0,2025-12
+5911,2025-12-04,1042,Sneha Das,East,Small Business,Monitor,Electronics,1,12000,5.0,Cash,11400.0,2025-12
+5912,2025-12-04,1047,Imran Patel,South,Small Business,Headphones,Electronics,1,2500,0.0,UPI,2500.0,2025-12
+5913,2025-12-04,1037,Pooja Reddy,North,Consumer,Notebook Pack,Stationery,3,350,15.0,Net Banking,892.5,2025-12
+5914,2025-12-04,1007,Suresh Das,North,Consumer,Smartphone,Electronics,4,22000,0.0,Cash,88000.0,2025-12
+5915,2025-12-04,1007,Suresh Das,North,Consumer,Office Chair,Furniture,5,7500,15.0,UPI,31875.0,2025-12
+5916,2025-12-05,1024,Arjun Rao,South,Corporate,Monitor,Electronics,2,12000,10.0,Cash,21600.0,2025-12
+5917,2025-12-05,1028,Pooja Sharma,North,Corporate,Notebook Pack,Stationery,4,350,10.0,Debit Card,1260.0,2025-12
+5918,2025-12-05,1060,Karthik Sharma,East,Consumer,Monitor,Electronics,4,12000,0.0,Net Banking,48000.0,2025-12
+5919,2025-12-05,1018,Tara Sharma,North,Consumer,Headphones,Electronics,1,2500,10.0,Debit Card,2250.0,2025-12
+5920,2025-12-05,1012,Sneha Rao,East,Corporate,Notebook Pack,Stationery,2,350,0.0,Debit Card,700.0,2025-12
+5921,2025-12-06,1057,Isha Patel,East,Consumer,Printer,Electronics,2,9500,10.0,Credit Card,17100.0,2025-12
+5922,2025-12-06,1010,Imran Patel,East,Small Business,Office Chair,Furniture,5,7500,0.0,Credit Card,37500.0,2025-12
+5923,2025-12-06,1002,Neha Patel,East,Corporate,Headphones,Electronics,5,2500,0.0,Cash,12500.0,2025-12
+5924,2025-12-07,1026,Kavya Reddy,West,Small Business,Printer,Electronics,5,9500,0.0,Net Banking,47500.0,2025-12
+5925,2025-12-07,1025,Neha Das,West,Consumer,Smartwatch,Electronics,3,6000,0.0,Net Banking,18000.0,2025-12
+5926,2025-12-07,1038,Neha Patel,East,Consumer,Notebook Pack,Stationery,3,350,0.0,Cash,1050.0,2025-12
+5927,2025-12-08,1053,Kavya Das,West,Small Business,Monitor,Electronics,2,12000,10.0,Cash,21600.0,2025-12
+5928,2025-12-08,1056,Meera Das,South,Consumer,Tablet,Electronics,4,18000,0.0,Debit Card,72000.0,2025-12
+5929,2025-12-08,1018,Tara Sharma,North,Consumer,Headphones,Electronics,1,2500,5.0,Credit Card,2375.0,2025-12
+5930,2025-12-08,1059,Aarav Reddy,West,Consumer,Laptop,Electronics,2,55000,0.0,Cash,110000.0,2025-12
+5931,2025-12-08,1038,Neha Patel,East,Consumer,Smartwatch,Electronics,1,6000,10.0,Credit Card,5400.0,2025-12
+5932,2025-12-08,1005,Karthik Sharma,West,Consumer,Headphones,Electronics,3,2500,10.0,Credit Card,6750.0,2025-12
+5933,2025-12-09,1057,Isha Patel,East,Consumer,Pen Set,Stationery,2,200,0.0,Net Banking,400.0,2025-12
+5934,2025-12-10,1009,Rahul Reddy,East,Consumer,Tablet,Electronics,1,18000,5.0,Debit Card,17100.0,2025-12
+5935,2025-12-10,1036,Kavya Reddy,East,Consumer,Pen Set,Stationery,2,200,15.0,Credit Card,340.0,2025-12
+5936,2025-12-12,1048,Tara Khan,North,Consumer,Headphones,Electronics,5,2500,10.0,Net Banking,11250.0,2025-12
+5937,2025-12-12,1015,Rahul Patel,West,Corporate,Smartwatch,Electronics,3,6000,0.0,Net Banking,18000.0,2025-12
+5938,2025-12-12,1017,Diya Nair,East,Consumer,Smartwatch,Electronics,5,6000,0.0,Credit Card,30000.0,2025-12
+5940,2025-12-13,1054,Kavya Singh,East,Corporate,Standing Desk,Furniture,5,16000,0.0,Debit Card,80000.0,2025-12
+5941,2025-12-13,1014,Arjun Das,East,Small Business,Smartwatch,Electronics,2,6000,10.0,Cash,10800.0,2025-12
+5942,2025-12-13,1040,Isha Singh,West,Corporate,Printer,Electronics,5,9500,0.0,Net Banking,47500.0,2025-12
+5943,2025-12-13,1028,Pooja Sharma,North,Corporate,Notebook Pack,Stationery,5,350,10.0,Debit Card,1575.0,2025-12
+5944,2025-12-14,1007,Suresh Das,North,Consumer,Headphones,Electronics,5,2500,0.0,Cash,12500.0,2025-12
+5945,2025-12-14,1043,Manoj Singh,South,Corporate,Monitor,Electronics,2,12000,0.0,Debit Card,24000.0,2025-12
+5946,2025-12-14,1050,Manoj Reddy,North,Consumer,Smartwatch,Electronics,2,6000,15.0,Net Banking,10200.0,2025-12
+5947,2025-12-14,1035,Diya Patel,South,Consumer,Laptop,Electronics,3,55000,10.0,Debit Card,148500.0,2025-12
+5948,2025-12-14,1011,Rahul Khan,East,Small Business,Standing Desk,Furniture,5,16000,10.0,Credit Card,72000.0,2025-12
+5949,2025-12-15,1010,Imran Patel,East,Small Business,Smartphone,Electronics,5,22000,15.0,Debit Card,93500.0,2025-12
+5950,2025-12-16,1026,Kavya Reddy,West,Small Business,Headphones,Electronics,3,2500,0.0,Net Banking,7500.0,2025-12
+5951,2025-12-16,1031,Nikhil Singh,West,Corporate,Pen Set,Stationery,1,200,0.0,Cash,200.0,2025-12
+5952,2025-12-16,1034,Nikhil Khan,South,Consumer,Tablet,Electronics,3,18000,0.0,UPI,54000.0,2025-12
+5953,2025-12-17,1015,Rahul Patel,Unknown,Corporate,Desk Lamp,Furniture,4,900,0.0,UPI,3600.0,2025-12
+5954,2025-12-17,1031,Nikhil Singh,West,Corporate,Monitor,Electronics,3,12000,0.0,Debit Card,36000.0,2025-12
+5955,2025-12-17,1018,Tara Sharma,North,Consumer,Notebook Pack,Stationery,2,350,15.0,Net Banking,595.0,2025-12
+5956,2025-12-17,1042,Sneha Das,East,Small Business,Pen Set,Stationery,2,200,0.0,Debit Card,400.0,2025-12
+5957,2025-12-17,1048,Tara Khan,North,Consumer,Pen Set,Stationery,1,200,0.0,Debit Card,200.0,2025-12
+5958,2025-12-17,1040,Isha Singh,West,Corporate,Monitor,Electronics,2,12000,0.0,Cash,24000.0,2025-12
+5959,2025-12-18,1001,Diya Das,South,Consumer,Smartwatch,Electronics,4,6000,0.0,Debit Card,24000.0,2025-12
+5960,2025-12-18,1060,Karthik Sharma,East,Consumer,Tablet,Electronics,2,18000,0.0,Net Banking,36000.0,2025-12
+5961,2025-12-18,1002,Neha Patel,East,Corporate,Notebook Pack,Stationery,5,350,5.0,Cash,1662.5,2025-12
+5962,2025-12-18,1060,Karthik Sharma,East,Consumer,Notebook Pack,Stationery,1,350,0.0,Cash,350.0,2025-12
+5964,2025-12-18,1031,Nikhil Singh,West,Corporate,Notebook Pack,Stationery,3,350,10.0,Cash,945.0,2025-12
+5965,2025-12-19,1007,Suresh Das,North,Consumer,Laptop,Electronics,5,55000,5.0,UPI,261250.0,2025-12
+5966,2025-12-19,1006,Rahul Rao,East,Corporate,Monitor,Electronics,5,12000,5.0,Debit Card,57000.0,2025-12
+5967,2025-12-20,1042,Sneha Das,East,Small Business,Headphones,Electronics,3,2500,0.0,UPI,7500.0,2025-12
+5968,2025-12-20,1044,Diya Khan,South,Consumer,Laptop,Electronics,4,55000,0.0,Debit Card,220000.0,2025-12
+5969,2025-12-20,1008,Suresh Das,West,Consumer,Smartphone,Electronics,4,22000,0.0,UPI,88000.0,2025-12
+5970,2025-12-20,1059,Aarav Reddy,West,Consumer,Headphones,Electronics,3,2500,15.0,Debit Card,6375.0,2025-12
+5971,2025-12-20,1020,Meera Singh,South,Small Business,Headphones,Electronics,1,2500,5.0,Credit Card,2375.0,2025-12
+5972,2025-12-21,1020,Meera Singh,South,Small Business,Laptop,Electronics,3,55000,0.0,UPI,165000.0,2025-12
+5973,2025-12-21,1018,Tara Sharma,North,Consumer,Headphones,Electronics,2,2500,0.0,UPI,5000.0,2025-12
+5974,2025-12-21,1028,Pooja Sharma,North,Corporate,Headphones,Electronics,3,2500,10.0,Debit Card,6750.0,2025-12
+5976,2025-12-22,1026,Kavya Reddy,West,Small Business,Smartwatch,Electronics,2,6000,5.0,Net Banking,11400.0,2025-12
+5977,2025-12-22,1013,Kavya Singh,North,Consumer,Smartwatch,Electronics,2,6000,10.0,Cash,10800.0,2025-12
+5978,2025-12-23,1004,Diya Singh,South,Consumer,Headphones,Electronics,5,2500,5.0,Cash,11875.0,2025-12
+5979,2025-12-24,1023,Diya Rao,South,Consumer,Smartphone,Electronics,2,22000,5.0,UPI,41800.0,2025-12
+5980,2025-12-24,1041,Nikhil Patel,West,Consumer,Laptop,Electronics,1,55000,0.0,Cash,55000.0,2025-12
+5981,2025-12-24,1046,Arjun Das,West,Consumer,Headphones,Electronics,4,2500,0.0,Cash,10000.0,2025-12
+5982,2025-12-24,1022,Suresh Khan,North,Consumer,Pen Set,Stationery,4,200,15.0,Credit Card,680.0,2025-12
+5983,2025-12-25,1020,Meera Singh,South,Small Business,Monitor,Electronics,5,12000,5.0,UPI,57000.0,2025-12
+5984,2025-12-26,1048,Tara Khan,North,Consumer,Monitor,Electronics,4,12000,0.0,Debit Card,48000.0,2025-12
+5985,2025-12-26,1041,Nikhil Patel,West,Consumer,Notebook Pack,Stationery,5,350,5.0,Cash,1662.5,2025-12
+5986,2025-12-26,1050,Manoj Reddy,North,Consumer,Notebook Pack,Stationery,3,350,0.0,UPI,1050.0,2025-12
+5987,2025-12-26,1055,Pooja Singh,East,Consumer,Headphones,Electronics,2,2500,10.0,UPI,4500.0,2025-12
+5988,2025-12-27,1050,Manoj Reddy,Unknown,Consumer,Desk Lamp,Furniture,5,900,0.0,Credit Card,4500.0,2025-12
+5990,2025-12-28,1025,Neha Das,West,Consumer,Printer,Electronics,2,9500,0.0,Debit Card,19000.0,2025-12
+5991,2025-12-28,1024,Arjun Rao,South,Corporate,Monitor,Electronics,5,12000,0.0,Debit Card,60000.0,2025-12
+5992,2025-12-29,1020,Meera Singh,South,Small Business,Office Chair,Furniture,5,7500,0.0,Credit Card,37500.0,2025-12
+5993,2025-12-30,1015,Rahul Patel,West,Corporate,Desk Lamp,Furniture,2,900,10.0,UPI,1620.0,2025-12
+5994,2025-12-30,1045,Kavya Das,South,Corporate,Desk Lamp,Furniture,4,900,0.0,UPI,3600.0,2025-12
+5995,2025-12-30,1043,Manoj Singh,South,Corporate,Headphones,Electronics,5,2500,0.0,UPI,12500.0,2025-12
+5996,2025-12-30,1049,Karthik Singh,South,Corporate,Monitor,Electronics,4,12000,10.0,Cash,43200.0,2025-12
+5997,2025-12-30,1011,Rahul Khan,East,Small Business,Smartphone,Electronics,1,22000,0.0,Cash,22000.0,2025-12
+5998,2025-12-31,1030,Suresh Singh,North,Corporate,Monitor,Electronics,4,12000,0.0,Debit Card,48000.0,2025-12
+5999,2025-12-31,1014,Arjun Das,East,Small Business,Desk Lamp,Furniture,1,900,0.0,UPI,900.0,2025-12
+6000,2025-12-31,1054,Kavya Singh,East,Corporate,Smartphone,Electronics,5,22000,10.0,Debit Card,99000.0,2025-12
